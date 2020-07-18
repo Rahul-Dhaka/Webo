@@ -14,6 +14,6 @@ Common GitHub Commands
 
 #4.git commit -m "your message after updating files" (you have to follow same syntex)
 
-#5.git push origin master (updating files on github)
+#5.git push (updating files on github)
 
 Simple 5 steps!!
