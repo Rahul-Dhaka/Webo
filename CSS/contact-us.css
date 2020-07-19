@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #55ffe5;
+	font-size: 14px;
+}
+
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+
+.contact-box{
+	background: #fff;
+	display: flex;
+}
