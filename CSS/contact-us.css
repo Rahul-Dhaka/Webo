@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
-	margin; 0;
+	margin: 0;
 	padding: 0;
     box-sizing: border-box;
 	font-family: 'Poppins' , sans-serif;
@@ -91,7 +90,7 @@ section .container .contactinfo .info li:hover span:nth-child(1) img,
 section .container .contactinfo .info li:hover span:nth-child(2){
 	opacity: 1;
 }
-
+/*
 section .container .contactinfo .sci{
 	position: relative;
 	display: flex;
@@ -110,7 +109,31 @@ section .container .contactinfo .sci li a img{
 	filter: invert(1);
 	opacity: 0.5;
 }
+*/
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
 
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 25px;
+	width: 40px;
+	margin: 20px 5px;
+	padding: 15;
+    color: #fff;
+    border-radius: 80%;
+    border: 2px solid grey;
+    transition: 0.3s;
+}
+
+.social-media i:hover {
+	background: grey;
+}
 section .container .contactinfo .sci li:hover a img{
 	opacity: 1;
 }
@@ -228,4 +251,15 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
   background: #fff;
   display: flex;
 }
->>>>>>> 537a3b4b624f286835c5d0ca04da7187d8d76321
+
+@media screen and (max-width: 1085px) {
+	.container {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+}
