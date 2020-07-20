@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
-*{
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
-	font-family: 'Poppins' , sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 section {
   position: absolute;
@@ -120,30 +113,29 @@ section .container .contactinfo .sci li a img {
 }
 */
 .social-media {
-	width: 100%;
-	color: #fff;
-	text-align: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
 }
 
 .social-media a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .social-media i {
-	height: 25px;
-	width: 40px;
-	margin: 20px 5px;
-	padding: 15;
-    color: #fff;
-    border-radius: 80%;
-    border: 2px solid grey;
-    transition: 0.3s;
+  height: 25px;
+  width: 40px;
+  margin: 20px 5px;
+  padding: 15;
+  color: #fff;
+  border-radius: 80%;
+  border: 2px solid grey;
+  transition: 0.3s;
 }
 
 .social-media i:hover {
-	background: grey;
+  background: grey;
 }
-
 
 section .container .contactForm {
   position: absolute;
@@ -235,5 +227,3 @@ section .container .contactForm .formBox .inputBox input[type="submit"] {
 section .container .contactForm .formBox .inputBox input[type="submit"]:hover {
   background: #ff568c;
 }
-
-
