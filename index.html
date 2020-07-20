@@ -3,20 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
-    <title>Home Page </title>
+    <link rel="stylesheet" href="./CSS/style2.css" />
+    <link rel="stylesheet" href="./CSS/homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Home Page</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <a href="#"
-          ><img
-            src="./Images/kindpng_114834.png"
-            alt="logo"
-            class="logo"
-            height="50px"
-        /></a>
+      <div class="navbar">
         <nav>
+          <a href="#"
+            ><img
+              src="./Images/kindpng_114834.png"
+              alt="logo"
+              class="logo"
+              height="50px"
+          /></a>
+          <div class="searchbox">
+            <table class="elements">
+              <tr>
+                <td>
+                  <input type="search" placeholder=" search" class="search" />
+                </td>
+                <td>
+                  <a href="#"><i class="material-icons">search</i></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
           <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
@@ -26,10 +44,15 @@
         </nav>
       </div>
     </header>
-
-    <div class="background">
-       
-    Sample Text
+    <div class="content">
+      <h1>We are <span>deligent</span></h1>
+      <br />
+      <h2 id="small">Cyber Security and Web Development</h2>
+      <div class="wrapper">
+        <div class="btn">
+          <button type="button">I am feeling lucky</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
