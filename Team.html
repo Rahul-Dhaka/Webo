@@ -1,35 +1,49 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Profile</title>
+    <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/team.css" type="text/css" />
-    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
-
+    <link rel="stylesheet" href="./CSS/footer2.css" type="text/css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="./CSS/team.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/about.css" />
+    <link rel="stylesheet" href="./CSS/team2.css" />
+    <title>Team Page</title>
   </head>
+
   <body>
     <!----------  navbar   ----------->
 
     <header>
       <div class="navbar">
-        <a href="./index.html"
-          ><img
-            src="./Images/kindpng_114834.png"
-            alt="logo"
-            class="logo"
-            height="60px"
-        /></a>
         <nav>
+          <a href="./index.html"
+            ><img
+              src="./Images/kindpng_114834.png"
+              alt="logo"
+              class="logo"
+              height="50px"
+          /></a>
+          <div class="searchbox">
+            <table class="elements">
+              <tr>
+                <td>
+                  <input type="search" placeholder=" search" class="search" />
+                </td>
+                <td>
+                  <a href="#"><i class="material-icons">search</i></a>
+                </td>
+              </tr>
+            </table>
+          </div>
           <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
@@ -65,7 +79,7 @@
             <a href="#" class="btn">Connect</a>
             <ul class="social-media">
               <!-- <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li> -->
+                  <li><a href="#"><i class="fab fa-twitter-square"></i></a></li> -->
               <li>
                 <a href="https://www.linkedin.com/in/tarun-kumar-nain-/"
                   ><i class="fab fa-linkedin-in"></i
@@ -171,7 +185,7 @@
             <a href="#" class="btn">Connect</a>
             <ul class="social-media">
               <!-- <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li> -->
+                  <li><a href="#"><i class="fab fa-twitter-square"></i></a></li> -->
               <li>
                 <a href="https://www.linkedin.com/in/tarun-kumar-nain-/"
                   ><i class="fab fa-linkedin-in"></i
@@ -187,5 +201,84 @@
         </div>
       </div>
     </section>
+
+    <!--------------   Footer    ---------------->
+
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="footer-items">
+          <h1>Cyber Security</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            magni repellendus veritatis, earum suscipit atque neque quaerat
+            minima iusto, cupiditate obcaecati reiciendis facilis recusandae
+            optio esse alias, sit quasi quam.
+          </p>
+        </div>
+
+        <div class="footer-items">
+          <h1>Quick Links</h1>
+          <div class="border"></div>
+          <ul>
+            <a href="">
+              <li>Home</li>
+            </a>
+            <a href="">
+              <li>About</li>
+            </a>
+            <a href="">
+              <li>Team</li>
+            </a>
+            <a href="">
+              <li>Contact US</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h1>Blogs</h1>
+          <div class="border"></div>
+          <ul>
+            <a href="">
+              <li>Hacking Techniques</li>
+            </a>
+            <a href="">
+              <li>Web-Security</li>
+            </a>
+            <a href="">
+              <li>Web-Development</li>
+            </a>
+            <a href="">
+              <li>Technology</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h1>Contact Us</h1>
+          <div class="border"></div>
+          <ul>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>Random Road,
+              Haryana, India
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i
+              >support@cyberteam.com
+            </li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
+          </ul>
+          <div class="social-media">
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Copyright &copy; Cyber Security Team 2019. All rights reserved.
+      </div>
+    </div>
   </body>
 </html>

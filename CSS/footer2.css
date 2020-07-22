@@ -3,10 +3,9 @@
   width: 100vw;
   background: #00121b;
   display: block;
-  position: absolute;
-  top: 800px;
+  position: relative;
   bottom: 0;
-  height: 350px;
+  height: 20rem;
 }
 
 .inner-footer {
