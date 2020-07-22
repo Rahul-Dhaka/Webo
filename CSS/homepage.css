@@ -1,5 +1,5 @@
 .content {
-  position: fixed;
+  position: absolute;
   top: 80px;
   width: 100vw;
   height: 500px;

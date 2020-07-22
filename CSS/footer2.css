@@ -6,7 +6,7 @@
   position: absolute;
   top: 800px;
   bottom: 0;
-  height: 310px;
+  height: 350px;
 }
 
 .inner-footer {
@@ -106,7 +106,8 @@
 }
 
 .footer-bottom {
-  padding: 10px;
+  text-align: center;
+  padding: 13.5px;
   background: #3d545f;
   color: #fff;
   font-size: 12px;
@@ -120,7 +121,7 @@
 
 @media screen and (max-width: 600px) {
   .footer {
-    height: 900px;
+    height: 950px;
   }
   .footer-items {
     width: 100%;
