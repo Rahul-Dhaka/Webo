@@ -140,7 +140,6 @@ nav ul li a:hover::after {
 
 @media (max-width: 1070px) {
   .toggle-button {
-    margin-right: 1.5rem;
     display: flex;
   }
 
@@ -155,7 +154,7 @@ nav ul li a:hover::after {
   .navbar-links ul {
     background-color: black;
     position: fixed;
-    margin-top: 1.9rem;
+    margin-top: 1.8rem;
     width: 100%;
     flex-direction: column;
     z-index: 10;
@@ -165,10 +164,11 @@ nav ul li a:hover::after {
   .searchbox {
     position: absolute;
     margin-bottom: 0.9rem;
-    margin-left: 4.5rem;
+    margin-left: 4rem;
   }
 
   .navbar-links li {
+    padding: 0.7rem;
     text-align: center;
   }
 
@@ -177,5 +177,12 @@ nav ul li a:hover::after {
   }
   .navbar-links.active {
     display: flex;
+  }
+}
+
+@media (max-width: 400px) {
+  .searchbox {
+    width: 16rem;
+    margin-left: 4rem;
   }
 }
