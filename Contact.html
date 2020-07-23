@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="./CSS/footer2.css">
+    <script src="./javascript/navbar.js" defer></script>
     <title>Contact Us</title>
   </head>
   <body>
@@ -17,13 +18,7 @@
     <header>
       <div class="navbar">
         <nav>
-          <a href="./index.html"
-            ><img
-              src="./Images/kindpng_114834.png"
-              alt="logo"
-              class="logo"
-              height="50px"
-          /></a>
+          <a href="#"><img src="./Images/kindpng_114834.png" alt="logo" class="logo" height="50px" /></a>
           <div class="searchbox">
             <table class="elements">
               <tr>
@@ -36,13 +31,19 @@
               </tr>
             </table>
           </div>
-
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./Team.html">Team</a></li>
-            <li><a href="./Contact.html">Contact us</a></li>
-          </ul>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./Team.html">Team</a></li>
+              <li><a href="./Contact.html">Contact us</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
