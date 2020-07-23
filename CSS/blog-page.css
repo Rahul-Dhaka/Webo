@@ -64,6 +64,7 @@ p{
 }
 
 /*------xxx---------Global Classes--------xxxxx---------------*/
+
 /* ---------- Navigation bar CSS Content-----*/
 
  .nav{
@@ -391,10 +392,34 @@ main .site-content .post-content .post-title .post-btn{
 
 /*----------xxxxxxxxx-------Footer-------------------xxxxxxxxx------------------*/
 
+/*    Viewport Less than or equal to 1130px  */
+
+@media only screen and (max-width:1130px){
+	.site-content .post-content > .post-image .post-info{
+		left: 2rem !important;
+		bottom: .7rem !important;
+		border-radius: 0% !important;
+	}
+
+	.site-content .sidebar .popular-post .post-info{
+		display: none !important;
+	}
+
+   /*	
+
+   .footer .container{
+	grid-template-columns: repeat(2, 1fr);
+   }
+
+   */
+}
+
+/* xxx   Viewport Less than or equal to 1130px  xxx  */
+
 /*    Viewport Less than or equal to 750px  */
 
  @media only screen and (max-width:750px){
- 	/*
+ 	
  	.nav .nav-menu, .nav .nav-items{
  		flex-direction: column;
  	}
@@ -402,7 +427,33 @@ main .site-content .post-content .post-title .post-btn{
  	
  	.nav .toogle-collapse{
  		display:initial;
- 	} */
+ 	} 
+
+ 	main .site-content{
+ 		grid-template-columns: 100%;
+ 	}
+
+ 	/* .
+ 	footer .container {
+	    grid-template-columns: repeat(1, 1fr);  
+ 	}
+ 		*/
  }
 
 /* xxx   Viewport Less than or equal to 750px xx */
+
+
+
+/*   Viewport Less than or equal to 520px  */
+
+@media only screen and (max-width:520px){
+	main .blog{
+		height: 125vh;
+	}
+
+	.site-content .post-content > .post-image .post-info{
+		display: none;
+	}
+}
+
+/* xxx   Viewport Less than or equal to 520px xx */
