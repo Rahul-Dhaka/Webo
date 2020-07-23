@@ -129,6 +129,7 @@ nav ul li a:hover::after {
   justify-content: space-between;
   width: 30px;
   height: 21px;
+  transition: all 0.5s ease-in-out;
 }
 
 .toggle-button .bar {
