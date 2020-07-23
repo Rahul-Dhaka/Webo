@@ -32,6 +32,8 @@ $(document).ready(function (){
     		scrollTop: 0
     	}, 1000);
     })
-
-
+  
+  // AOS Instance for Animation
+   AOS.init();
+ 
 });
