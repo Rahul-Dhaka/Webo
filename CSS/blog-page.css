@@ -375,6 +375,7 @@ main .site-content .post-content .post-title .post-btn {
   padding: 0.2rem 2rem;
   border-radius: 4rem;
   margin-top: 0.6rem;
+  display: inline-block;
 }
 
 /*----------------------SideBar------------------------------------*/
