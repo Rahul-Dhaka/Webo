@@ -1,202 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 * {
-  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
 }
 
-.body {
-  overflow: hidden;
+body {
+  background-color: #12172b;
+  font-family: "Poppins", sans-serif;
 }
 
-section {
-  padding: 10rem 0;
-  background-color: #fff;
-  font-size: 10px;
-  font-family: "Roboto", sans-serif;
-  position: relative;
+.container {
+  margin: 20px 40px;
+  color: white;
 }
 
-.container .card-wrapper a {
-  text-decoration: none;
-  color: #fff;
+.heading {
+  font-size: 60px;
+  color: white;
 }
 
-.container .heading {
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  letter-spacing: 3px;
-  margin-right: -3px;
-  margin-bottom: 5rem;
-  text-align: center;
-  color: #333;
-  position: relative;
-}
-
-.container .heading::after {
-  content: "";
-  width: 10rem;
-  height: 0.8rem;
-  background-color: #45e19f;
-  position: absolute;
-  bottom: -2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 2rem;
-}
-
-.card-wrapper {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-}
-
-.card-wrapper .card {
-  width: 28rem;
-  background-color: #ebeef8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem;
-  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
-}
-
-.card-wrapper .card .card-img {
-  width: 100%;
-  height: 22rem;
-  object-fit: cover;
-  clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
-}
-
-.card-wrapper .profile-img {
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-top: -11rem;
-  z-index: 4;
-  border: 1rem solid #ebeef8;
-}
-
-.card-wrapper .card h1 {
-  font-size: 2rem;
-  color: #333;
-  margin: .5rem 0;
-}
-
-.card-wrapper .job-title {
-  color: #777;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-.card-wrapper .about {
-  font-size: 1.3rem;
-  margin: .6rem 0;
+.heading span {
   font-style: italic;
-  text-align: center;
-  color: #333;
+  font-size: 30px;
 }
 
-.card-wrapper .card .btn {
-  padding: 1rem 2.5rem;
-  background-color: #445ae3;
-  border-radius: 2rem;
-  margin: 1rem 0;
-  text-transform: uppercase;
-  color: #eee;
-  font-size: 1.4rem;
-  transition: all 0.5s;
-}
-
-.card-wrapper .card .btn:hover {
-  /* font-size: 1.6rem; */
-  transform: translateY(-2px);
-  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.card-wrapper .card .btn:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
-.card-wrapper .social-media {
-  width: 100%;
-  list-style: none;
+.profiles {
   display: flex;
-  justify-content: space-evenly;
-  padding: 2rem 0;
-  margin-top: 1.5rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  margin: 20px 80px;
 }
 
-.social-media i {
-  font-size: 3rem;
-  transition: color 0.5s;
+.profile {
+  flex-basis: 260px;
 }
 
-.fa-facebook-square {
-  color: #3b5999;
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
 }
 
-.fa-twitter-square {
-  color: #55acee;
+.profile:hover .profile-img {
+  filter: grayscale(0);
 }
 
-.fa-linkedin-square {
-  color: #e6683c;
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
 }
 
-.fa-github-square {
-  color: #dd4b39;
+.profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
 }
 
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-linkedin-square:hover,
-.fa-github-square:hover {
-  color: #45e19f;
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
 }
 
-@media screen and (min-width: 700px) {
-  .card-wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
   }
 
-  .card {
-    margin: 2rem;
-    transition: transform 0.5s;
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
   }
-  .card-wrapper .card:nth-child(1) {
-    animation: fadeIn 0.5s 0.5s backwards;
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
   }
 
-  .card-wrapper .card:nth-child(2) {
-    animation: fadeIn 0.5s 0.1s backwards;
+  .heading span {
+    font-size: 15px;
   }
 
-  .card-wrapper .card:nth-child(3) {
-    animation: fadeIn 0.5s 1.5s backwards;
+  .profiles {
+    margin: 20px 0;
   }
 
-  .card-wrapper .card:nth-child(4) {
-    animation: fadeIn 0.5s 2s backwards;
-  }
-
-  .card-wrapper .card:hover {
-    transform: scale(1.05);
+  .profile p {
+    margin: 20px 10px 80px 10px;
   }
 }
