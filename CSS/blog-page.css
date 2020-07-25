@@ -187,14 +187,13 @@ main .site-title .btn:hover {
 main .blog {
   background: url(../Images/post4.jpg);
   background-repeat: no-repeat;
-
-  background-size: cover;
+ 
   height: 100vh;
-  width: 95%;
+  width: 85%;
 }
 
 main .blog .blog-post {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 main .blog-post .blog-content {
