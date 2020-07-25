@@ -4,21 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/contact-us.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    <link rel="stylesheet" href="./CSS/footer2.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./CSS/footer2.css" />
     <script src="./javascript/navbar.js" defer></script>
     <title>Contact Us</title>
   </head>
   <body>
-        <!----------  navbar   ----------->
+    <!----------  navbar   ----------->
 
     <header>
       <div class="navbar">
         <nav>
-          <a href="#"><img src="./Images/kindpng_114834.png" alt="logo" class="logo" height="50px" /></a>
+          <a href="#"
+            ><img
+              src="./Images/kindpng_114834.png"
+              alt="logo"
+              class="logo"
+              height="50px"
+          /></a>
           <div class="searchbox">
             <table class="elements">
               <tr>
@@ -47,71 +63,60 @@
         </nav>
       </div>
     </header>
-  <section>
-    <div class="container">
-    <div class="contactinfo">
-       <div>
-        <h2>Contact Info</h2>
-        <ul class="info">
-          <li>
-            <span><img src="./Images/address.png"></span>
-            <span>Random Road<br>
-              Haryana, India<br>
-              124001</span>
-          </li>
-          <li>
-            <span><img src="./Images/email-open.png"></span>
-            <span>tarunnain467@gmail.com</span>
-          </li>
-          <li>
-            <span><img src="./Images/phone.png"></span>
-            <span>870-870-8708</span>
-          </li>
-        </ul>
-          <!--<ul class="sci">
-            
-            <li><a href="#"><img src="./Images/facebook.png"></a></li>
-            <li><a href="#"><img src="./Images/linkedin.png"></a></li>
-            <li><a href="#"><img src="./Images/instagram.png"></a></li>
-            <li><a href="#"><img src="./Images/twitter.png"></a></li>
-          </ul>-->
-          <div class="social-media">
-             <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-             <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-             <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a> 
-          </div>  
-        </div>
-      </div>
-      
-        <div class="contactForm">
-          <h2>Send a Message</h2>
-          <div class="formBox">
-            <div class="inputBox w50">
-              <input type="text" name="" required />
-              <span>First Name</span>
+
+    <!------------- Contact us Section  --------------->
+
+    <section>
+      <div class="container">
+        <div class="text">Contact us</div>
+        <form action="#">
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" required>
+              <div class="underline">
+              </div>
+              <label for="">First Name</label>
             </div>
-            <div class="inputBox w50">
-              <input type="text" name="" required />
-              <span>Last Name</span>
-            </div>
-            <div class="inputBox w50">
-              <input type="text" name="" required />
-              <span>Email Address</span>
-            </div>
-            <div class="inputBox w50">
-              <input type="text" name="" required />
-              <span>Mobile Number</span>
-            </div>
-            <div class="inputBox w100">
-              <textarea name="" required></textarea>
-              <span>Write your message here.....</span>
-            </div>
-            <div class="inputBox w100">
-              <input type="submit" value="Send" />
+            <div class="input-data">
+              <input type="text" required>
+              <div class="underline">
+              </div>
+              <label for="">Last Name</label>
             </div>
           </div>
-        </div> 
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" required>
+              <div class="underline">
+              </div>
+              <label for="">Email Address</label>
+            </div>
+            <div class="input-data">
+              <input type="text" required>
+              <div class="underline">
+              </div>
+              <label for="">Website Name</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data textarea">
+              <!-- Due to more textarea tag I got an error.. SO I changed the name of texarea tag into changeit. Replace the changeit text/tag to textarea-->
+              <textarea rows="8" cols="80" required></textarea>
+              <br />
+              <div class="underline">
+              </div>
+              <label for="">Write your message</label>
+      
+      
+              <br />
+              <div class="form-row submit-btn">
+                <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="submit">
+                </div>
+              </div>
+        </form>
+      </div>
     </section>
 
     <!--------------   Footer    ---------------->
@@ -127,7 +132,7 @@
             optio esse alias, sit quasi quam.
           </p>
         </div>
-    
+
         <div class="footer-items">
           <h1>Quick Links</h1>
           <div class="border"></div>
@@ -146,7 +151,7 @@
             </a>
           </ul>
         </div>
-    
+
         <div class="footer-items">
           <h1>Blogs</h1>
           <div class="border"></div>
@@ -165,7 +170,7 @@
             </a>
           </ul>
         </div>
-    
+
         <div class="footer-items">
           <h1>Contact Us</h1>
           <div class="border"></div>
@@ -175,7 +180,8 @@
               Haryana, India
             </li>
             <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i>support@cyberteam.com
+              <i class="fa fa-envelope" aria-hidden="true"></i
+              >support@cyberteam.com
             </li>
             <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
           </ul>
