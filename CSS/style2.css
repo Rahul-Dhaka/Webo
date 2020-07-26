@@ -189,7 +189,7 @@ nav ul li a:hover::after {
 @media (max-width: 440px) {
   .searchbox {
     width: 16rem;
-    left: 5rem;
+    left: 4rem;
     top: 0.94rem;
     position: absolute;
   }
