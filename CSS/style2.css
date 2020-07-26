@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 @media (max-width: 1070px) {
   .toggle-button {
     display: flex;
-    top: 1.5rem;
+    top: 1.35rem;
   }
 
   .navbar-links {
@@ -170,7 +170,7 @@ nav ul li a:hover::after {
     position: absolute;
     margin-bottom: 1rem;
     left: 6rem;
-    top: 0.94rem;
+    top: 0.73rem;
   }
 
   .navbar-links li {
@@ -189,8 +189,8 @@ nav ul li a:hover::after {
 @media (max-width: 440px) {
   .searchbox {
     width: 16rem;
-    left: 4rem;
-    top: 0.94rem;
+    left: 4.5rem;
+    top: 0.73rem;
     position: absolute;
   }
 }
