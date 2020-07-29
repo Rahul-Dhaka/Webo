@@ -89,3 +89,9 @@ button:hover:after {
   opacity: 1;
   transition: 0.7s;
 }
+
+@media (max-width: 600px) {
+  .content {
+    height: 600px;
+  }
+}
