@@ -122,7 +122,7 @@ footer .container2 {
 
 @media screen and (max-width: 1070px) {
   .outer-footer {
-    height: 500px;
+    height: 400px;
   }
 
   footer {
@@ -133,6 +133,7 @@ footer .container2 {
     justify-content: space-around;
     align-items: center;
     height: 400px;
+    padding-top: 5px;
   }
   footer .container1 .section1,
   footer .container1 .section2 {
