@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,46 +30,41 @@
     <title>Blogs</title>
   </head>
   <body>
-    <!----------  navbar   ----------->
+    <!-------------   Navbar   ----------------->
 
-    <header>
-      <div class="navbar">
-        <nav>
-          <a href="#"
-            ><img
-              src="./Images/kindpng_114834.png"
-              alt="logo"
-              class="logo"
-              height="50px"
-          /></a>
-          <div class="searchbox">
-            <table class="elements">
-              <tr>
-                <td>
-                  <input type="search" placeholder=" search" class="search" />
-                </td>
-                <td>
-                  <a href="#"><i class="material-icons">search</i></a>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./Blogs.html">Blogs</a></li>
-              <li><a href="./Team.html">Team</a></li>
-              <li><a href="./Contact.html">Contact us</a></li>
-            </ul>
-          </div>
-        </nav>
+    <nav>
+      <div class="logo">
+        <h4>Webo</h4>
       </div>
-    </header>
+      <div class="searchbox">
+        <table class="elements">
+          <tr>
+            <td>
+              <input
+                type="search"
+                placeholder=" Search anything..."
+                class="search"
+              />
+            </td>
+            <td>
+              <a href="#"><i class="material-icons">search</i></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Blogs.html">Blogs</a></li>
+        <li><a href="./Team.html">Team</a></li>
+        <li><a href="./Contact.html">Contact Us</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <script src="./javascript/navbar.js"></script>
+    </nav>
 
     <main>
       <!-------Site Title-------->
