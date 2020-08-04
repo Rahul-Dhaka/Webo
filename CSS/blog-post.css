@@ -4,27 +4,28 @@
 }
 
 .blog-content {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   top: 10px;
   width: 100vw;
-  display: block;
   /* background-color: red; */
 }
 
 .blog-content .container1 {
   display: flex;
   background-color: #fff;
-  width: 75vw;
+  width: 80vw;
   height: 300px;
   top: 50px;
-  left: 10vw;
   position: relative;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
   /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: cursive;
   color: aquamarine;
 }
@@ -34,18 +35,17 @@
   background-color: transparent;
   margin-top: 10px;
   top: 100px;
-  width: 75vw;
+  width: 80vw;
   height: 1500px;
-  left: 10vw;
   position: relative;
   flex-direction: row;
-  background-color: teal;
+  /* background-color: teal; */
 }
 
 .blog-content .container3 {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 65%;
   height: 1300px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@
 }
 .blog-content .container3 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .blog-content .container3 p,
@@ -85,7 +85,7 @@
   /* border-radius: 1rem; */
   flex-direction: column;
   align-items: center;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 
 .blog-content .container5 {
@@ -99,6 +99,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 2rem;
+  font-weight: 500;
 }
 
 .blog-content .container6 {
@@ -112,11 +113,13 @@
   border-radius: 1rem;
   flex-direction: column;
   align-items: center;
-  font-size: 25px;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .blog-content .tags {
   width: 90%;
+  font-size: 1.3rem;
 }
 .blog-content .tag {
   background: lightblue;
@@ -126,15 +129,16 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1024px) {
   .blog-content .container1 {
-    left: 5vw;
-    width: 95%;
+    width: 90vw;
+    font-size: 3rem;
   }
+
   .blog-content .container2 {
     flex-direction: column;
-    width: 95%;
-    left: 5vw;
+    width: 90vw;
+    /* left: 5vw; */
     height: 2300px;
   }
 
