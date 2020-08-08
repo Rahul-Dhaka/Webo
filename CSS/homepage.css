@@ -2,8 +2,8 @@
   position: relative;
   top: 80px;
   width: 100vw;
-  height: 500px;
-  background-color: none;
+  height: 550px;
+  /* background-color: red; */
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -88,4 +88,10 @@ button:hover:after {
   transform: translateX(300px) skewX(-15deg);
   opacity: 1;
   transition: 0.7s;
+}
+
+@media (max-width: 600px) {
+  .content {
+    height: 600px;
+  }
 }

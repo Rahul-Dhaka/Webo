@@ -3,9 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/footer2.css" type="text/css" />
+=======
+    <link rel="stylesheet" href="./CSS/navbar.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/footer3.css" />
+>>>>>>> 0201fea2dd89372565d1aed97e3c3e53e390c0a9
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -26,45 +36,26 @@
     <title>Blogs</title>
   </head>
   <body>
-    <!----------  navbar   ----------->
+    <!-------------   Navbar   ----------------->
 
     <header>
-      <div class="navbar">
-        <nav>
-          <a href="#"
-            ><img
-              src="./Images/kindpng_114834.png"
-              alt="logo"
-              class="logo"
-              height="50px"
-          /></a>
-          <div class="searchbox">
-            <table class="elements">
-              <tr>
-                <td>
-                  <input type="search" placeholder=" search" class="search" />
-                </td>
-                <td>
-                  <a href="#"><i class="material-icons">search</i></a>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./Blogs.html">Blogs</a></li>
-              <li><a href="./Team.html">Team</a></li>
-              <li><a href="./Contact.html">Contact us</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <nav>
+        <div class="logo">
+          <h4>Webo</h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Blogs.html">Blogs</a></li>
+          <li><a href="./Team.html">Team</a></li>
+          <li><a href="./Contact.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <script src="./javascript/navbar.js"></script>
+      </nav>
     </header>
 
     <main>
@@ -73,7 +64,7 @@
         <div class="site-background" data-aos="fade-up" data-aos-delay="100">
           <h1>Cyber World</h1>
           <h1>Amazing Cyber Attacks and Security</h1>
-          <button class="btn btn-blog">Hack Me</button>
+          <button class="btn btn-blog" onclick="location.href='./Blog-post.html';" value="go to blog post" >Hack Me</button>
         </div>
       </section>
       <!-------xxxx-------Site Title-----xxxxx--->
@@ -92,7 +83,11 @@
                 <img src="./Images/post1.jpg" alt="Post-1" />
                 <div class="blog-title">
                   <h3>Hacked By Tarun</h3>
+<<<<<<< HEAD
                   <button src="./Blog-post.html" class="btn btn-blog">Hack 1</button>
+=======
+                  <button class="btn btn-blog" onclick="location.href='./Blog-post.html';" value="go to blog post" >Hack 1</button>
+>>>>>>> 0201fea2dd89372565d1aed97e3c3e53e390c0a9
                   <span>2 minutes</span>
                 </div>
               </div>
@@ -100,7 +95,7 @@
                 <img src="./Images/post2.jpg" alt="Post-2" />
                 <div class="blog-title">
                   <h3>Hacked By Rahul</h3>
-                  <button class="btn btn-blog">Hack 2</button>
+                  <button class="btn btn-blog" onclick="location.href='./Blog-post.html';" value="go to blog post" >Hack 2</button>
                   <span>3 minutes</span>
                 </div>
               </div>
@@ -112,7 +107,7 @@
                 <img src="./Images/post1.jpg" alt="Post-3" />
                 <div class="blog-title">
                   <h3>Hacked By Someone</h3>
-                  <button class="btn btn-blog">Hack 3</button>
+                  <button class="btn btn-blog"onclick="location.href='./Blog-post.html';" value="go to blog post" >Hack 3</button>
                   <span>4 minutes</span>
                 </div>
               </div>
@@ -124,7 +119,7 @@
                 <img src="./Images/post2.jpg" alt="Post-4" />
                 <div class="blog-title">
                   <h3>Hacked By Anyone</h3>
-                  <button class="btn btn-blog">Hack 4</button>
+                  <button class="btn btn-blog" onclick="location.href='./Blog-post.html';" value="go to blog post" >Hack 4</button>
                   <span>5 minutes</span>
                 </div>
               </div>
@@ -173,7 +168,7 @@
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat .
                 </p>
-                <button class="btn post-btn">
+                <button class="btn post-btn" onclick="location.href='./Blog-post.html';" value="go to blog post">
                   Read More &nbsp;<i class="fas fa-arrow-right"></i>
                 </button>
               </div>
@@ -204,7 +199,7 @@
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <button class="btn post-btn">
+                <button class="btn post-btn" onclick="location.href='./Blog-post.html';" value="go to blog post" >
                   Read More &nbsp;<i class="fas fa-arrow-right"></i>
                 </button>
               </div>
@@ -235,7 +230,7 @@
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <button class="btn post-btn">
+                <button class="btn post-btn"onclick="location.href='./Blog-post.html';" value="go to blog post"  >
                   Read More &nbsp;<i class="fas fa-arrow-right"></i>
                 </button>
               </div>
@@ -266,7 +261,7 @@
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <button class="btn post-btn">
+                <button class="btn post-btn" onclick="location.href='./Blog-post.html';" value="go to blog post" >
                   Read More &nbsp;<i class="fas fa-arrow-right"></i>
                 </button>
               </div>
@@ -469,65 +464,48 @@
 
     <!--------------   Footer    ---------------->
 
-    <div class="footer">
-      <div class="inner-footer">
-        <div class="footer-items">
-          <h1>Cyber Security</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            magni repellendus veritatis, earum suscipit atque neque quaerat
-            minima iusto, cupiditate obcaecati reiciendis facilis recusandae
-            optio esse alias, sit quasi quam.
-          </p>
-        </div>
-
-        <div class="footer-items">
-          <h1>Quick Links</h1>
-          <div class="border"></div>
-          <ul>
-            <a href=""><li>Home</li></a>
-            <a href=""><li>About</li></a>
-            <a href=""><li>Team</li></a>
-            <a href=""><li>Contact US</li></a>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h1>Blogs</h1>
-          <div class="border"></div>
-          <ul>
-            <a href=""><li>Hacking Techniques</li></a>
-            <a href=""><li>Web-Security</li></a>
-            <a href=""><li>Web-Development</li></a>
-            <a href=""><li>Technology</li></a>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h1>Contact Us</h1>
-          <div class="border"></div>
-          <ul>
-            <li>
-              <i class="fa fa-map-marker" aria-hidden="true"></i>Random Road,
-              Haryana, India
-            </li>
-            <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i
-              >support@cyberteam.com
-            </li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
-          </ul>
-          <div class="social-media">
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <div class="outer-footer">
+      <footer>
+        <div class="container1">
+          <div class="section1">
+            <h1>Cyber Security</h1>
+            <div class="border"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              magni repellendus veritatis, earum suscipit atque neque quaerat
+              minima iusto, cupiditate obcaecati reiciendis facilis recusandae
+              optio esse alias, sit quasi quam.
+            </p>
+          </div>
+          <div class="section2">
+            <h1>Contact Us</h1>
+            <div class="border"></div>
+            <ul>
+              <li>
+                <i id="icon" class="fa fa-map-marker" aria-hidden="true"></i>
+                &nbspRandom Road, Haryana, India
+              </li>
+              <li>
+                <i id="icon" class="fa fa-envelope" aria-hidden="true"></i
+                >support@cyberteam.com
+              </li>
+              <li>
+                <i id="icon" class="fa fa-phone" aria-hidden="true"></i>
+                0123456789
+              </li>
+            </ul>
+            <div
+              class="move-up"
+              style="position: absolute; bottom: 50px; right: 50px; z-index: 10;"
+            >
+              <span><i class="fa fa-arrow-circle-up fa-3x"></i></span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer-bottom">
-        Copyright &copy; Cyber Security Team 2019. All rights reserved.
-      </div>
+        <div class="container2">
+          Copyright &copy; Cyber Security Team 2020. All rights reserved.
+        </div>
+      </footer>
     </div>
   </body>
 </html>

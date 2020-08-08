@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style2.css" type="text/css" />
-    <link rel="stylesheet" href="./CSS/footer2.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/footer3.css" />
     <link rel="stylesheet" href="./CSS/team.css" />
     <link
       rel="stylesheet"
@@ -19,45 +19,25 @@
   </head>
 
   <body>
-    <!----------  navbar   ----------->
-
+    <!-------------   Navbar   ----------------->
     <header>
-      <div class="navbar">
-        <nav>
-          <a href="#"
-            ><img
-              src="./Images/kindpng_114834.png"
-              alt="logo"
-              class="logo"
-              height="50px"
-          /></a>
-          <div class="searchbox">
-            <table class="elements">
-              <tr>
-                <td>
-                  <input type="search" placeholder=" search" class="search" />
-                </td>
-                <td>
-                  <a href="#"><i class="material-icons">search</i></a>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./Blogs.html">Blogs</a></li>
-              <li><a href="./Team.html">Team</a></li>
-              <li><a href="./Contact.html">Contact us</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <nav>
+        <div class="logo">
+          <h4>Webo</h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Blogs.html">Blogs</a></li>
+          <li><a href="./Team.html">Team</a></li>
+          <li><a href="./Contact.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <script src="./javascript/navbar.js"></script>
+      </nav>
     </header>
 
     <!-------------   Team page   --------------->
@@ -103,81 +83,48 @@
 
     <!--------------   Footer    ---------------->
 
-    <div class="footer">
-      <div class="inner-footer">
-        <div class="footer-items">
-          <h1>Cyber Security</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            magni repellendus veritatis, earum suscipit atque neque quaerat
-            minima iusto, cupiditate obcaecati reiciendis facilis recusandae
-            optio esse alias, sit quasi quam.
-          </p>
-        </div>
-
-        <div class="footer-items">
-          <h1>Quick Links</h1>
-          <div class="border"></div>
-          <ul>
-            <a href="">
-              <li>Home</li>
-            </a>
-            <a href="">
-              <li>About</li>
-            </a>
-            <a href="">
-              <li>Team</li>
-            </a>
-            <a href="">
-              <li>Contact US</li>
-            </a>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h1>Blogs</h1>
-          <div class="border"></div>
-          <ul>
-            <a href="">
-              <li>Hacking Techniques</li>
-            </a>
-            <a href="">
-              <li>Web-Security</li>
-            </a>
-            <a href="">
-              <li>Web-Development</li>
-            </a>
-            <a href="">
-              <li>Technology</li>
-            </a>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h1>Contact Us</h1>
-          <div class="border"></div>
-          <ul>
-            <li>
-              <i class="fa fa-map-marker" aria-hidden="true"></i>Random Road,
-              Haryana, India
-            </li>
-            <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i
-              >support@cyberteam.com
-            </li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
-          </ul>
-          <div class="social-media">
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <div class="outer-footer">
+      <footer>
+        <div class="container1">
+          <div class="section1">
+            <h1>Cyber Security</h1>
+            <div class="border"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              magni repellendus veritatis, earum suscipit atque neque quaerat
+              minima iusto, cupiditate obcaecati reiciendis facilis recusandae
+              optio esse alias, sit quasi quam.
+            </p>
+          </div>
+          <div class="section2">
+            <h1>Contact Us</h1>
+            <div class="border"></div>
+            <ul>
+              <li>
+                <i id="icon" class="fa fa-map-marker" aria-hidden="true"></i>
+                &nbspRandom Road, Haryana, India
+              </li>
+              <li>
+                <i id="icon" class="fa fa-envelope" aria-hidden="true"></i
+                >support@cyberteam.com
+              </li>
+              <li>
+                <i id="icon" class="fa fa-phone" aria-hidden="true"></i>
+                0123456789
+              </li>
+            </ul>
+            <div
+              class="move-up"
+              style="position: absolute; bottom: 50px; right: 50px; z-index: 2;"
+            >
+              <span><i class="fa fa-arrow-circle-up fa-3x"></i></span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer-bottom">
-        Copyright &copy; Cyber Security Team 2019. All rights reserved.
-      </div>
+        <div class="container2">
+          Copyright &copy; Cyber Security Team 2020. All rights reserved.
+        </div>
+      </footer>
     </div>
   </body>
 </html>
