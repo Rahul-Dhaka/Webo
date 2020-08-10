@@ -58,6 +58,7 @@ button.btn {
 }
 
 p {
+  margin-top: 10px;
   color: none;
 }
 
@@ -90,11 +91,11 @@ h3 {
 }
 
 main .site-title .btn {
-  position: absolute;
+  position: relative;
   font-size: 1.3rem;
   font-size: 1.5rem;
-  margin: 1.6rem;
-  right: 35%;
+  /* margin: 1.6rem; */
+  /* right: 35%; */
   background: lightblue;
 }
 
@@ -193,7 +194,7 @@ main .post-content {
   border-radius: 1rem;
   width: 100%;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
+  margin-top: 30px;
   overflow: hidden;
 }
 
@@ -365,63 +366,36 @@ main .site-content .post-content .post-title .post-btn {
 
 /*    Viewport Less than or equal to 1130px  */
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1024px) {
+  main .site-content{
+    flex-direction: column;
+    width: 92vw;
+  }
+
+  .posts{
+    width: 100%;
+  }
+
+  main .site-content .post-content > .post-image .img{
+    height: 300px;
+  }
+
   .site-content .post-content > .post-image .post-info {
-    left: 2rem !important;
-    bottom: 0.7rem !important;
-    border-radius: 0% !important;
+    display: none;
   }
 
   .site-content .sidebar .popular-post .post-info {
     display: none !important;
   }
 
-  /*	
-
-   .footer .container{
-	grid-template-columns: repeat(2, 1fr);
-   }
-
-   */
+.sidebar{
+margin-left: 0;
+width: 92vw;
 }
 
-/* xxx   Viewport Less than or equal to 1130px  xxx  */
-
-/*    Viewport Less than or equal to 750px  */
-
-@media only screen and (max-width: 750px) {
-  .nav .nav-menu,
-  .nav .nav-items {
-    flex-direction: column;
-  }
-
-  .nav .toogle-collapse {
-    display: initial;
-  }
-
-  main .site-content {
-    grid-template-columns: 100%;
-  }
-
-  /* .
- 	footer .container {
-	    grid-template-columns: repeat(1, 1fr);  
- 	}
- 		*/
+main .site-title .btn{
+  align-self: center;
+  margin-top: 1rem;
 }
 
-/* xxx   Viewport Less than or equal to 750px xx */
-
-/*   Viewport Less than or equal to 520px  */
-
-@media only screen and (max-width: 520px) {
-  main .blog {
-    height: 125vh;
-  }
-
-  .site-content .post-content > .post-image .post-info {
-    display: none;
-  }
 }
-
-/* xxx   Viewport Less than or equal to 520px xx */
