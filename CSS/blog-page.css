@@ -38,7 +38,7 @@ ul {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h3 {
 button.btn {
   border: none;
   border-radius: 2rem;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -63,93 +63,12 @@ p {
 
 /*------xxx---------Global Classes--------xxxxx---------------*/
 
-/* ---------- Navigation bar CSS Content-----*/
-
-.nav {
-  background: white;
-  padding: 0 2rem;
-  height: 0rem;
-  min-height: 10vh;
-  overflow: hidden;
-  transition: height 1s ease-in-out;
-}
-
-.nav .nav-menu {
-  justify-content: space-between;
-}
-
-.nav .toggle-collapse {
-  position: absolute;
-  top: 0%;
-  width: 90%;
-  cursor: pointer;
-  display: none;
-}
-
-.nav .toggle-collapse .toggle-icons {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.7rem 0;
-}
-
-.nav .toggle-collapse .toggle-icons i {
-  font-size: 1.4rem;
-  color: var(--text-gray);
-}
-
-.collapse {
-  height: 30rem;
-}
-
-.nav .nav-items {
-  display: flex;
-  margin: 0;
-}
-
-.nav .nav-items .nav-link {
-  padding: 1.6rem 1rem;
-  font-size: 1.1rem;
-  position: relative;
-  font-family: var(--Abel);
-  font-size: 1.1rem;
-}
-
-.nav .nav-items .nav-link:hover {
-  background-color: var(--midnight);
-}
-
-.nav .nav-items .nav-link:hover a {
-  color: var(--white);
-}
-
-.nav .nav-brand a {
-  font-size: 1.6rem;
-  padding: 1rem 0;
-  display: block;
-  font-family: var(--Lexend);
-  font-size: 1.6rem;
-}
-
-.nav .social {
-  padding: 1.4rem 0;
-}
-
-.nav .social i {
-  padding: 0 0.2rem;
-}
-
-.nav .social i:hover {
-  color: #a1c4cf;
-}
-
-/* ----xxxxx------ Navigation bar CSS Content--xxxxx---*/
-
 /*------------------- Main Site Section---------------*/
 
 /*-----------------Site title-------------------------*/
 
 main .site-title {
-  background: url("../Images/background.jpg");
+  background:  linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url("../Images/background.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -159,9 +78,10 @@ main .site-title {
 }
 
 main .site-title .site-background {
+  margin-bottom: 300px;
   padding-top: 10rem;
   text-align: center;
-  color: black;
+  color: teal;
 }
 
 main .site-title h1,
@@ -170,7 +90,11 @@ h3 {
 }
 
 main .site-title .btn {
+  position: absolute;
+  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 1.6rem;
+  right: 35%;
   background: lightblue;
 }
 
@@ -184,10 +108,16 @@ main .site-title .btn:hover {
 
 /*-----------------Blog Carousel-------------------------------*/
 
-main .blog {
-  background: url(../Images/post4.jpg);
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+section .blog {
+  /* background: url(../Images/post2.jpg); */
   background-repeat: no-repeat;
- 
   height: 100vh;
   width: 85%;
 }
@@ -239,10 +169,13 @@ main .blog-content span {
 
 main .site-content {
   display: grid;
-  grid-template-columns: 70% 30%;
+  /* background-color: yellow; */
+  grid-template-columns: 70% 30% ;
 }
 
 main .post-content {
+  /* background-color: yellowgreen; */
+  /* border-radius: 1rem; */
   width: 100%;
 }
 
