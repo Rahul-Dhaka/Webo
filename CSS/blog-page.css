@@ -38,7 +38,7 @@ ul {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h3 {
 button.btn {
   border: none;
   border-radius: 2rem;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -58,98 +58,18 @@ button.btn {
 }
 
 p {
+  margin-top: 10px;
   color: none;
 }
 
 /*------xxx---------Global Classes--------xxxxx---------------*/
-
-/* ---------- Navigation bar CSS Content-----*/
-
-.nav {
-  background: white;
-  padding: 0 2rem;
-  height: 0rem;
-  min-height: 10vh;
-  overflow: hidden;
-  transition: height 1s ease-in-out;
-}
-
-.nav .nav-menu {
-  justify-content: space-between;
-}
-
-.nav .toggle-collapse {
-  position: absolute;
-  top: 0%;
-  width: 90%;
-  cursor: pointer;
-  display: none;
-}
-
-.nav .toggle-collapse .toggle-icons {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.7rem 0;
-}
-
-.nav .toggle-collapse .toggle-icons i {
-  font-size: 1.4rem;
-  color: var(--text-gray);
-}
-
-.collapse {
-  height: 30rem;
-}
-
-.nav .nav-items {
-  display: flex;
-  margin: 0;
-}
-
-.nav .nav-items .nav-link {
-  padding: 1.6rem 1rem;
-  font-size: 1.1rem;
-  position: relative;
-  font-family: var(--Abel);
-  font-size: 1.1rem;
-}
-
-.nav .nav-items .nav-link:hover {
-  background-color: var(--midnight);
-}
-
-.nav .nav-items .nav-link:hover a {
-  color: var(--white);
-}
-
-.nav .nav-brand a {
-  font-size: 1.6rem;
-  padding: 1rem 0;
-  display: block;
-  font-family: var(--Lexend);
-  font-size: 1.6rem;
-}
-
-.nav .social {
-  padding: 1.4rem 0;
-}
-
-.nav .social i {
-  padding: 0 0.2rem;
-}
-
-.nav .social i:hover {
-  color: #a1c4cf;
-}
-
-/* ----xxxxx------ Navigation bar CSS Content--xxxxx---*/
 
 /*------------------- Main Site Section---------------*/
 
 /*-----------------Site title-------------------------*/
 
 main .site-title {
-  background: url("../Images/background.jpg");
+  background:  linear-gradient(to top, rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url("../Images/background.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -159,9 +79,10 @@ main .site-title {
 }
 
 main .site-title .site-background {
+  margin-bottom: 300px;
   padding-top: 10rem;
   text-align: center;
-  color: black;
+  color: teal;
 }
 
 main .site-title h1,
@@ -170,7 +91,11 @@ h3 {
 }
 
 main .site-title .btn {
-  margin: 1.6rem;
+  position: relative;
+  font-size: 1.3rem;
+  font-size: 1.5rem;
+  /* margin: 1.6rem; */
+  /* right: 35%; */
   background: lightblue;
 }
 
@@ -184,10 +109,16 @@ main .site-title .btn:hover {
 
 /*-----------------Blog Carousel-------------------------------*/
 
-main .blog {
-  background: url(../Images/post4.jpg);
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+section .blog {
+  /* background: url(../Images/post2.jpg); */
   background-repeat: no-repeat;
- 
   height: 100vh;
   width: 85%;
 }
@@ -202,7 +133,12 @@ main .blog-post .blog-content {
   text-align: center;
   width: 80%;
   margin: 3rem 2rem;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-content .post-img{
+  border-radius: 1rem 1rem 0 0;
 }
 
 main .blog-content .blog-title {
@@ -238,16 +174,32 @@ main .blog-content span {
 /*--------------------Site Content Last Part----------------------*/
 
 main .site-content {
-  display: grid;
-  grid-template-columns: 70% 30%;
+  display: flex;
+  width: 85vw;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  margin-top: -8rem;
+  /* background-color: yellow; */
+  /* grid-template-columns: 70% 30% ; */
+}
+
+.posts{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
 }
 
 main .post-content {
+  /* background-color: yellowgreen; */
+  border-radius: 1rem;
   width: 100%;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  overflow: hidden;
 }
 
-main .site-content .post-content > .post-image,
-.post-title {
+main .site-content .post-content > .post-title {
+  margin-top: 1rem;
   padding: 0.5rem 2rem;
   position: relative;
 }
@@ -256,8 +208,8 @@ main .site-content .post-content > .post-image .post-info {
   background: lightblue;
   padding: 1rem 1rem;
   position: absolute;
-  bottom: 0%;
-  left: 20vw;
+  bottom: 25.5%;
+  left: 25%;
   border-radius: 4rem;
 }
 
@@ -267,6 +219,11 @@ main .site-content .post-content > .post-image > div {
 
 main .site-content .post-content > .post-image .img {
   width: 100%;
+  height: 400px;
+  background-position: bottom;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
   transition: all 1s ease;
 }
 
@@ -284,13 +241,14 @@ main .post-content .post-title a {
 
 main .site-content .post-content .post-title .post-btn {
   border-radius: 0;
+  margin-top: 1rem;
   padding: 0.7rem 1.5rem;
   background: lightblue;
 }
 
 .site-content .pagination {
   justify-content: center;
-  color: grey;
+  color: grey ;
   margin: 4rem 0rem;
 }
 
@@ -309,10 +267,18 @@ main .site-content .post-content .post-title .post-btn {
 
 /*----------------------SideBar------------------------------------*/
 
+.sidebar{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 30%;
+}
+
 .site-content > .sidebar .category-list .list-items {
   background: lightblue;
   padding: 0.4rem 1rem;
-  margin: 0.8rem 0;
+  margin: 0.8rem 1rem;
   border-radius: 3rem;
   width: 70%;
   display: flex;
@@ -324,7 +290,16 @@ main .site-content .post-content .post-title .post-btn {
 }
 
 .site-content .sidebar .popular-post .post-content {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  height: 280px;
+}
+.site-content .sidebar .popular-post .post-content .post-image .img{
+  width: 100%;
+  height: 200px;
+  background-position: bottom;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .site-content .sidebar .popular-post h2 {
@@ -332,15 +307,23 @@ main .site-content .post-content .post-title .post-btn {
 }
 
 .site-content .sidebar .popular-post .post-info {
+  /* left: 0; */
   padding: 0.4rem 0.1rem !important;
-  bottom: 0rem !important;
-  left: 1.5rem !important;
+  bottom: 5rem !important;
+  left: 0rem !important;
   border-radius: 0rem !important;
   background: white !important;
 }
 
+.popular-post .post-title{
+  width: 90%;
+}
+
 .site-content .sidebar .popular-post .post-title a {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  /* padding: 0.5rem 2rem; */
+  position: relative;
 }
 
 .site-content .sidebar .newsletter {
@@ -381,69 +364,38 @@ main .site-content .post-content .post-title .post-btn {
 
 /*--------xxxx--------- Main Site Section---------xxxx-----*/
 
-/*-----------------Footer-------------------------------------*/
-
-/*----------xxxxxxxxx-------Footer-------------------xxxxxxxxx------------------*/
-
 /*    Viewport Less than or equal to 1130px  */
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1024px) {
+  main .site-content{
+    flex-direction: column;
+    width: 92vw;
+  }
+
+  .posts{
+    width: 100%;
+  }
+
+  main .site-content .post-content > .post-image .img{
+    height: 300px;
+  }
+
   .site-content .post-content > .post-image .post-info {
-    left: 2rem !important;
-    bottom: 0.7rem !important;
-    border-radius: 0% !important;
+    display: none;
   }
 
   .site-content .sidebar .popular-post .post-info {
     display: none !important;
   }
 
-  /*	
-
-   .footer .container{
-	grid-template-columns: repeat(2, 1fr);
-   }
-
-   */
+.sidebar{
+margin-left: 0;
+width: 92vw;
 }
 
-/* xxx   Viewport Less than or equal to 1130px  xxx  */
-
-/*    Viewport Less than or equal to 750px  */
-
-@media only screen and (max-width: 750px) {
-  .nav .nav-menu,
-  .nav .nav-items {
-    flex-direction: column;
-  }
-
-  .nav .toogle-collapse {
-    display: initial;
-  }
-
-  main .site-content {
-    grid-template-columns: 100%;
-  }
-
-  /* .
- 	footer .container {
-	    grid-template-columns: repeat(1, 1fr);  
- 	}
- 		*/
+main .site-title .btn{
+  align-self: center;
+  margin-top: 1rem;
 }
 
-/* xxx   Viewport Less than or equal to 750px xx */
-
-/*   Viewport Less than or equal to 520px  */
-
-@media only screen and (max-width: 520px) {
-  main .blog {
-    height: 125vh;
-  }
-
-  .site-content .post-content > .post-image .post-info {
-    display: none;
-  }
 }
-
-/* xxx   Viewport Less than or equal to 520px xx */
