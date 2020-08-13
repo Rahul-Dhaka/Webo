@@ -14,6 +14,7 @@ header {
   display: block;
   width: 100vw;
   height: 8vh;
+
 }
 
 nav {
@@ -38,6 +39,18 @@ nav {
   letter-spacing: 5px;
   font-size: 25px;
   z-index: 2;
+}
+
+.logo h4{
+  text-transform: uppercase;
+  font-size: 25px;
+  animation: aagepiche 2s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes aagepiche{
+  from{ padding-left: 40px }
+  to{ padding-right: 40px }
 }
 
 .material-icons {
