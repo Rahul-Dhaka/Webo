@@ -48,11 +48,6 @@ nav {
   animation-direction: alternate;
 }
 
-@keyframes aagepiche{
-  from{ padding-left: 40px }
-  to{ padding-right: 40px }
-}
-
 .material-icons {
   color: white;
 }
