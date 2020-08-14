@@ -88,5 +88,5 @@ transform: rotate(0);
 .content-2 .image-banner img,
 .content-3 .image-banner img,
 .content-4 .image-banner img{
-  max-width: 400px;
+  max-width: 300px;
 }
