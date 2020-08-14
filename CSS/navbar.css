@@ -37,15 +37,12 @@ nav {
   color: rgb(240, 240, 240);
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 40px;
   z-index: 2;
 }
 
 .logo h4{
-  text-transform: uppercase;
-  font-size: 25px;
-  animation: aagepiche 2s linear infinite;
-  animation-direction: alternate;
+  
 }
 
 .material-icons {

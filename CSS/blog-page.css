@@ -281,6 +281,7 @@ main .site-content .post-content .post-title .post-btn {
 
 .site-content > .sidebar .category-list .list-items {
   background: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0.4rem 1rem;
   margin: 0.8rem 1rem;
   border-radius: 3rem;
