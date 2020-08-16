@@ -137,7 +137,7 @@ transform: rotate(0);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
   }
   .content-3{
     flex-direction: column-reverse;

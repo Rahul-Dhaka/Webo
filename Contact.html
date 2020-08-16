@@ -16,6 +16,8 @@
     />
     <link rel="stylesheet" href="./CSS/footer3.css"/>
     <title>Contact Us</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./javascript/contact.js"></script>
   </head>
   <body>
     <!-------------   Navbar   ----------------->
@@ -45,16 +47,17 @@
     <section>
       <div class="container">
         <div class="text">Contact us</div>
-        <form action="#">
+        <div id="error_message"></div>
+        <form action="https://formspree.io/tarunnain467@gmail.com" method="POST" onsubmit="return validation()">
           <div class="form-row">
             <div class="input-data">
-              <input type="text" required>
+              <input type="text" id="name" name="first_name" required>
               <div class="underline">
               </div>
               <label for="">First Name</label>
             </div>
             <div class="input-data">
-              <input type="text" required>
+              <input type="text" id="last_name" name="last_name" required>
               <div class="underline">
               </div>
               <label for="">Last Name</label>
@@ -62,21 +65,21 @@
           </div>
           <div class="form-row">
             <div class="input-data">
-              <input type="text" required>
+              <input type="text" id="email" name="email" required>
               <div class="underline">
               </div>
               <label for="">Email Address</label>
             </div>
             <div class="input-data">
-              <input type="text" required>
+              <input type="text" id="phone" name="phone_number" required>
               <div class="underline">
               </div>
-              <label for="">Website Name</label>
+              <label for="">Phone Number</label>
             </div>
           </div>
           <div class="form-row">
             <div class="input-data textarea">
-              <textarea rows="8" cols="80" required></textarea>
+              <textarea rows="8" cols="80" id="message" name="message" required></textarea>
               <br />
               <div class="underline">
               </div>
