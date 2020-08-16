@@ -73,14 +73,18 @@ body {
   padding: 0 1rem ;
   text-align: center;
   margin-top: 5px;
-  font-size: 35px;
+  font-size: 33px;
   /* border: 1px solid white; */
   border-radius: 2rem;
 }
 
 .profile h5 {
-  margin-top: 5px;
-  font-size: 18px;
+  text-align: center;
+  /* background-color: red; */
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin-top: 0px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 2px;
@@ -128,7 +132,7 @@ body {
   }
   
   .profile{
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .profile p {

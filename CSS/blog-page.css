@@ -279,14 +279,22 @@ main .site-content .post-content .post-title .post-btn {
   width: 30%;
 }
 
-.site-content > .sidebar .category-list .list-items {
+.site-content > .sidebar .category-list .list-items button{
   background: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .99rem;
+  border: 0px;
   padding: 0.4rem 1rem;
   margin: 0.8rem 1rem;
   border-radius: 3rem;
   width: 70%;
   display: flex;
   justify-content: space-between;
+  transition: .3s;
+}
+
+.category-list .list-items button:hover{
+  transform: scale(1.09);
 }
 
 .site-content > .sidebar .category-list .list-items a {
