@@ -17,7 +17,7 @@ body{
 }
 
 .content-1{
-  height: 90vh;
+  height: 25rem;
   /* background-image: linear-gradient(#c3f5ff, #fff); */
 }
 
@@ -28,7 +28,7 @@ hr{
 
 .text-banner {
   width: 50%;
-  padding-top: 100px;
+  padding-top: 80px;
   /* background-color: red; */
   font-family: 'Roboto', sans-serif;
 }
@@ -119,11 +119,12 @@ transform: rotate(0);
   /* background-color: yellow; */
 }
 
-.content-1 .image-banner img{
-  margin-top: 50px;
+.content-2 .image-banner img{
+  max-width: 500px;
+  margin-top: 30px;
 }
 
-.content-2 .image-banner img,
+/* .content-2 .image-banner img, */
 .content-3 .image-banner img,
 .content-4 .image-banner img{
   max-width: 300px;
