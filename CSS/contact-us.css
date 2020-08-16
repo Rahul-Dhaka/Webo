@@ -25,6 +25,15 @@ section {
   height: 530px;
 }
 
+.container #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+} 
+
 .container .text {
   text-align: center;
   font-size: 35px;
