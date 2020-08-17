@@ -26,6 +26,11 @@ section {
 }
 
 .container #error_message{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: -30px;
+  width: 100%;
   margin-bottom: 20px;
   padding: 0px;
   background: #fe8b8e;
@@ -120,11 +125,11 @@ form .form-row .textarea {
   transform: scale(1);
 }
 
-.submit-btn{
+/* .submit-btn{
 position: absolute;
 width: 100%;
 bottom: -130px;
-}
+} */
 
 .submit-btn .input-data {
   overflow: hidden;

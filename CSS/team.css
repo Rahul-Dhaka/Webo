@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #12172b;
+  /* background-color: #12172b; */
+  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -32,6 +33,7 @@ body {
 }
 
 .profile {
+  background-color: #12172b;
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;

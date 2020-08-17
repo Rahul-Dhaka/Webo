@@ -5,6 +5,7 @@ body {
   margin: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
 }
 
 /* Creating Variable in CSS 
@@ -69,7 +70,8 @@ p {
 /*-----------------Site title-------------------------*/
 
 main .site-title {
-  background:  linear-gradient(to top, #fff, #c3f5ff);
+  /* background:  linear-gradient(to top, #fff, #c3f5ff); */
+  background: transparent;
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -130,6 +132,7 @@ main .blog .blog-post {
 }
 
 main .blog-post .blog-content {
+  background: white;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -191,7 +194,7 @@ main .site-content {
 }
 
 main .post-content {
-  /* background-color: yellowgreen; */
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
