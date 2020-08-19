@@ -129,14 +129,14 @@ body{
 
 .blog-content .container3 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-top: -40px;
   align-self: center;
 }
 
 .blog-content .container3 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.3rem;
+  font-size: 18px;
   margin-top: 5px;
   width: 97%;
 }

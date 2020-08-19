@@ -70,7 +70,7 @@ body{
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: cursive;
   color: aquamarine;
 }
@@ -150,14 +150,14 @@ body{
 
 .blog-content .container3 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-top: -40px;
   align-self: center;
 }
 
 .blog-content .container3 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.3rem;
+  font-size: 18px;
   margin-top: 5px;
   width: 97%;
 }
@@ -233,7 +233,8 @@ body{
 
 #slider{
   overflow: hidden;
-  width: 84%;
+  margin-left: 16px;
+  width: 81%;
   height: 50vh;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
@@ -309,10 +310,11 @@ body{
     margin-top: 50px;
   }
 
-  .post-info{
-    font-size: .7rem;
+  .post-info {
+    font-size: .8rem;
   }
 
-  #slider{
+  #slider {
     width: 95%;
-} 
+  }
+}
