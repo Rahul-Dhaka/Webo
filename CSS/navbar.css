@@ -15,6 +15,7 @@ header {
   display: block;
   width: 100vw;
   height: 8vh;
+  background: black;
 }
 
 nav {
@@ -26,7 +27,8 @@ nav {
   align-items: center;
   min-height: 8vh;
   padding: 0 1rem;
-  background-color: black;
+  background-color: rgba(0,0,0,0.92);
+  opacity: 0.92;
   font-family: "Poppins", sans-serif;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
   z-index: 2;
