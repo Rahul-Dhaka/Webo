@@ -225,67 +225,7 @@ body{
 }
 
 /* -------------------  Trending Section Slider   ----------------- */
-.slider-container{
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-}
 
-#slider{
-  overflow: hidden;
-  margin-left: 16px;
-  width: 81%;
-  height: 50vh;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
-}
-
-#slider figure{
-  
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
-}
-
-#slider figure img {
-  padding-bottom: 200px;
-  object-fit: cover;
-  height: 40rem;
-	width: 20%;
-	float: left;
-}
-
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-  }
-}
 /* -------XXX---------  Trending Section Slider   ---------XXX------ */
 
 @media screen and (max-width: 1024px) {
@@ -316,5 +256,10 @@ body{
 
   #slider {
     width: 95%;
+    margin-left: 8px;
+  }
+
+  .leftside{
+    display: none;
   }
 }
