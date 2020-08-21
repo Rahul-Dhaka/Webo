@@ -253,15 +253,18 @@ body{
     margin-top: 50px;
   }
 
+  .container3 .blog-1,.blog-2,.blog-3{
+    height: 450px;
+  }
+
+  .blog-content .bl-img{
+    height: 250px;
+  }
+
   .post-info {
     font-size: .8rem;
   }
-
-  #slider {
-    width: 95%;
-    margin-left: 8px;
-  }
-
+  
   .leftside{
     display: none;
   }
