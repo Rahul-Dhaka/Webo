@@ -91,7 +91,7 @@ height: 45vh;
 .content-3 .text-banner h1,
 .content-4 .text-banner h1{
   color: #606060;
-  font-size: 30px;
+  font-size: 25px;
   /* margin-top: -100px; */
   margin-bottom: 20px;
 }
@@ -100,7 +100,7 @@ height: 45vh;
 .content-4 .text-banner h3{
   font-weight: 400;
   font-size: 18px;
-  line-height: 2.5rem;
+  line-height: 1.8rem;
   color: rgb(53, 53, 53);
 }
 
@@ -222,7 +222,7 @@ transform: rotate(0);
 
   .content-3, .content-4{
     margin: 50px 0px;
-    height: 35rem;
+    height: 25rem;
   }
   .content-1 .image-banner,
   .content-2 .image-banner {
@@ -253,3 +253,5 @@ transform: rotate(0);
     flex-direction: column-reverse;
     text-align: center;
   }
+
+}
