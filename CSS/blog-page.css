@@ -1,4 +1,5 @@
 /* If required font family can be imported here*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 html,
 body {
@@ -6,7 +7,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   background: #e6e6e6;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
 }
 
 /* Creating Variable in CSS 
@@ -61,7 +62,6 @@ button.btn {
 
 p {
   margin-top: 10px;
-  font-family: 'Poppins';
   font-size: 1rem;
   color: none;
 }
@@ -88,7 +88,7 @@ main .site-title .site-background {
   margin-bottom: 300px;
   padding-top: 10rem;
   text-align: center;
-  color: teal;
+  color: rgba(255, 255, 255, 0.877);
 }
 
 main .site-title h1,
@@ -99,16 +99,18 @@ h3 {
 main .site-title .btn {
   position: relative;
   font-size: 1.3rem;
-  font-size: 1.5rem;
+  margin-top: 25px;
   /* margin: 1.6rem; */
   /* right: 35%; */
-  background: lightblue;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  outline: none;
 }
 
 main .site-title .btn:hover {
-  background: transparent;
-  border: 1px solid white;
-  color: white;
+  background: lightblue;
+  color: black;
 }
 
 /*--------xxx---------Site title----------xxxxxxx---------------*/

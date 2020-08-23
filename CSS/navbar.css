@@ -23,16 +23,18 @@ header {
 nav {
   display: flex;
   position: fixed;
+  margin-left: -.7vw;
   top: 0;
   width: 96vw;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  border-radius: 0px  0px 2rem 2rem;
+  border-radius: 0px  0px 1.5rem 1.5rem;
   padding: 0 1rem;
   /* background-color: rgba(0,0,0,0.92); */
   background-color: black;
-  border: 1px solid grey;
+  border: 2px solid grey;
+  border-top: 0;
   font-family: "Poppins", sans-serif;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -123,6 +125,7 @@ nav {
     padding: 0 1rem;
     min-height: 3rem;
     background: black;
+    margin-left: 0vw;
   }
 
   .nav-links {
@@ -135,12 +138,14 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    top: 1.4rem;
+    top: 1.2rem;
     background-color: black;
     width: 96vw;
     height: 40vh;
     border-radius: 0px 0px 2rem 2rem;
-    left: 0px;
+    border: 1px solid grey;
+    border-top: 0;
+    left: -1px;
     z-index: 1;
   }
 
