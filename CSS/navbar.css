@@ -143,9 +143,9 @@ nav {
     width: 96vw;
     height: 40vh;
     border-radius: 0px 0px 2rem 2rem;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-top: 0;
-    left: -1px;
+    left: -2px;
     z-index: 1;
   }
 
