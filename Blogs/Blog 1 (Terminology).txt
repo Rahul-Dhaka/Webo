@@ -1,0 +1,165 @@
+Terminology Related to Cyber World :
+1. Anti-Virus Software : A computer program designed to prevent and protect a computer or device from malicious codes and remove the same.
+
+2. Authentication : It is a way of confirming or identifying the individual or organization by validating certain identities.
+
+3. Authorization : Entrusting the right privilege to users for accessing the data or information or a system.
+
+4. Attribute : Specifies the quality or characteristics of something taken for study.
+
+5. Auditing : An act of examination or verification of features, controls, procedures and operations.
+
+6. Availability : Ready to use or access for authorized people.
+
+7. Administrator : A person who is vested with rights to manage a system or who has been appointed to execute some important tasks.
+
+8. APT-Advanced Persistent Threat : It is a cyber-attack launched to steal the information or gain unauthorized access of an organization by an individual or a group which may go undetected for a long time. They are executed by trained professionals.
+
+9. Attack : Socially or politically motivated attempts to target an individual, organization or country by unauthorized infringements causing damage to the system.
+
+10. Bitcoin : It is a virtual currency introduced to make transactions on the web easier. Not associated with a particular country or regulations.
+
+11. Cyber Attack : A deliberate attempt made to compromise the security of computers, networks, data bases and other infrastructures with the help of malicious activities which may lead to cybercrime.
+
+12. Cybercrime : It is a criminal activity done with the help of a Computer or Network. Computer or Network is used as a tool. It is punishable according to Cyberlaw.
+
+13. Cyber espionage : The use of Computers and Networks to gain illegal access for confidential information for some gain.
+
+14. Cybernauts : People who are actively engaged in Cyberspace for all their social experience.
+
+15. Cybernetics : Study of communication and control systems related to automation that are used to replace the human system.
+
+16. Cyberspace : Cyberspace is the world-wide active sphere that uses electronic devices and spectrum through which one can share, create and exchange information regardless of their locations.
+
+17. Cyber Security : Cyber Security is the body of technologies, processes and practices designed to protect networks, computers, programs and data from attacks, damages or unauthorized accesses.
+
+18. Cyberterrorism : Use of Internet to threaten Individual, Group, Organization and Country or violent activity to cause harm for some gain.
+
+19. Cyberwarfare : Targeting a Country’s digital infrastructures and resources through targeted attacks through the Cyberspace. The cyberspace is used as the battle field here.
+
+20. Cryptography : Cryptography is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents.
+
+21. Confidentiality : State of maintaining secrecy of communication by restricting unauthorized access or disclosure of information.
+
+22. Cloning : It is the process of preparation of identical objects.
+
+23. Control : The power to impact decisions and processes in a system.
+
+24. Cloud : It is a metaphor used for Internet. It is created to share resources with minimum management effort. It provides ubiquitous access to all shared resources on subscription basis.
+
+25. DNS-Domain Name System : It is a naming system followed to identify computers and other services connected to the Internet.
+
+26. Data : Raw facts and figures that do not convey any meaning by themselves unless otherwise used in a context.
+
+27. Database : An organized collection of data with controlled redundancy.
+
+28. Data Management : Includes all operations and disciplines related to management of data like acquiring, storing, processing, validating, protecting and management.
+
+29. Destruction : The act of destroying something.
+
+30. Disruption : Forcible disconnection of something due to some pressure.
+
+31. Data Fraud : A deliberate attempt made to disclose the data or stealing of data for misuse. It is punishable according to cyber law.
+
+32. DoS-Denial of Service : It is a type of attack or crime where the genuine users are denied access to the resources due to unavailability of the resources.
+
+33. Extortion : Taking money or something of value by somebody by abuse.
+
+34. Field : A unit in a data base table. A space allocated for a particular item in a table.
+
+35. File : It is a collection of records.
+
+36. Hardware : Denotes the physical components of computers, devices and telecommunication systems.
+
+37. IPS-Intrusion Prevention System : It is a network security mechanism used to detect and prevent the network from illegal traffic exploiting vulnerability.
+
+38. Information : Processed data that conveys meaning to the users. It has a purpose.
+
+39. Information Systems : System that performs activities in an organized way to collect, store and communicate information.
+
+40. Integrity : Moral uprightness (the quality of being honest and having strong moral principles.)
+
+41. ICT-Information Communication Technology : It is the technology that provides access to information through telecommunication systems.
+
+42. IoT – Internet of Things : An eco-system that connects all objects and things with Internet. Every object is embedded with a sensor.
+
+43. Knowledge : Information with insights. Organizations build their own knowledge base.
+
+44. Key-logging : Also known as key stroke logging. It is the act of recording or monitoring the key punch operations of the user without their knowledge.
+
+45. Modification : The act of Alteration.
+
+46. Malicious : An act done with the intension of harming others or exhibiting the desire to harm others intentionally.
+
+47. Malware : It is an illegal piece of software designed to cause harm to the computers, servers and networks.
+
+48. Metadata : A set of data that describes and gives information about other data.
+
+49. Object oriented approach : A new concept or approach that redefines data in the form of data with functions for reusability and expansion.
+
+50. Operating System : A firmware that manages computer hardware, software and other resources to provide services to all the users.
+
+51. Phishing : An attempt made to access the user’s password or other secret information or credentials for malicious activities.
+
+52. Risk : Possibility of a harm or danger.
+
+53. Router : It is a network device that connects the network with Internet.
+
+54. Ransomware : It is a type of malicious software that prevents the users from accessing their own data for want of money.
+
+55. Reliability : It is the quality or state that ensures trust.
+
+56. Server : It is a computer program or a device that has medium or high level of calibre.
+
+57. Signal : Usually refers to the electronic pulses in the context of referring a data.
+
+58. Super Computers : It is a Computer with very high level of performance used in very important higher end and high processing critical applications.
+
+59. Service oriented architecture : It is a software development model that facilitates the distribution of application components of data for further operations.
+
+60. Sniffing : Capturing data for unwanted operations in the context of security.
+
+61. Software : A set of instructions in an organized and systematic manner given to a computer to do a task.
+
+62. Spoofing : A type of crime where the intruder tries to gain unauthorized access to a system.
+
+63. Spamming : Sending unwanted bulk electronic messages through media.
+
+64. Script Kiddies : An unskilled individual who uses programs written by others to attack a computer network or a web site.
+
+65. Social Engineering : The act of getting the confidential information from people with the intension of misusing it.
+
+66. Social Media : An Internet based platform to share data or information with many.
+
+67. Spying : Secret collection of data or operation without the permission of the owner or holder.
+
+68. Telecommunication System : A system that is responsible for the transfer of data in the form of signals from one end to another end. In other words, from the sender to the receiver.
+
+69. Theft : It is a crime executed by snatching the property or stealing from the owner.
+
+70. User Interface : It is the connection or entry point through which users can interact with any system.
+
+71. Virus : A small piece of code installed in the user’s computer without their knowledge to execute undesirable activities.
+
+72. Vulnerability : It is a sensitive part of a system or unit. The part that cannot withstand the effect of hostile environment.
+
+73. Wi-Fi : (wireless fidelity) Wireless networking technology. It also uses standards of operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
