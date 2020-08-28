@@ -1,0 +1,93 @@
+Terminology Related to Cyber World :
+<h1 class="grid-element">1.</h1> <h2 class="grid-element">Anti-Virus Software :</h2> A computer program designed to prevent and protect a computer or device from malicious codes and remove the same.</p>
+<h1 class="grid-element">2.</h1> <h2 class="grid-element">Authentication :</h2> It is a way of confirming or identifying the individual or organization by validating certain identities.</p>
+<h1 class="grid-element">3.</h1> <h2 class="grid-element">Authorization :</h2><p class="grid-element"> Entrusting the right privilege to users for accessing the data or information or a system.</p>
+<h1 class="grid-element">4.</h1> <h2 class="grid-element">Attribute :</h2><p class="grid-element"> Specifies the quality or characteristics of something taken for study.</p>
+<h1 class="grid-element">5.</h1> <h2 class="grid-element">Auditing :</h2><p class="grid-element"> An act of examination or verification of features, controls, procedures and operations.</p>
+<h1 class="grid-element">6.</h1> <h2 class="grid-element">Availability :</h2><p class="grid-element"> Ready to use or access for authorized people.</p>
+<h1 class="grid-element">7.</h1> <h2 class="grid-element">Administrator :</h2><p class="grid-element"> A person who is vested with rights to manage a system or who has been appointed to execute some important tasks.</p>
+<h1 class="grid-element">8.</h1> <h2 class="grid-element">APT-Advanced Persistent Threat :</h2><p class="grid-element"> It is a cyber-attack launched to steal the information or gain unauthorized access of an organization by an individual or a group which may go undetected for a long time. They are executed by trained professionals.</p>
+<h1 class="grid-element">9.</h1> <h2 class="grid-element">Attack :</h2><p class="grid-element"> Socially or politically motivated attempts to target an individual, organization or country by unauthorized infringements causing damage to the system.</p>
+<h1 class="grid-element">10.</h1> <h2 class="grid-element">Bitcoin :</h2><p class="grid-element"> It is a virtual currency introduced to make transactions on the web easier. Not associated with a particular country or regulations.</p>
+<h1 class="grid-element">11.</h1> <h2 class="grid-element">Cyber Attack :</h2><p class="grid-element"> A deliberate attempt made to compromise the security of computers, networks, data bases and other infrastructures with the help of malicious activities which may lead to cybercrime.</p>
+<h1 class="grid-element">12.</h1> <h2 class="grid-element">Cybercrime :</h2><p class="grid-element"> It is a criminal activity done with the help of a Computer or Network. Computer or Network is used as a tool. It is punishable according to Cyberlaw.</p>
+<h1 class="grid-element">13.</h1> <h2 class="grid-element">Cyber espionage :</h2><p class="grid-element"> The use of Computers and Networks to gain illegal access for confidential information for some gain.</p>
+<h1 class="grid-element">14.</h1> <h2 class="grid-element">Cybernauts :</h2><p class="grid-element"> People who are actively engaged in Cyberspace for all their social experience.</p>
+<h1 class="grid-element">15.</h1> <h2 class="grid-element">Cybernetics :</h2><p class="grid-element"> Study of communication and control systems related to automation that are used to replace the human system.</p>
+<h1 class="grid-element">16.</h1> <h2 class="grid-element">Cyberspace :</h2><p class="grid-element"> Cyberspace is the world-wide active sphere that uses electronic devices and spectrum through which one can share, create and exchange information regardless of their locations.</p>
+<h1 class="grid-element">17.</h1> <h2 class="grid-element"> Cyber Security :</h2><p class="grid-element"> Cyber Security is the body of technologies, processes and practices designed to protect networks, computers, programs and data from attacks, damages or unauthorized accesses.</p>
+<h1 class="grid-element">18.</h1> <h2 class="grid-element">Cyberterrorism :</h2><p class="grid-element"> Use of Internet to threaten Individual, Group, Organization and Country or violent activity to cause harm for some gain.</p>
+<h1 class="grid-element">19.</h1> <h2 class="grid-element">Cyberwarfare :</h2><p class="grid-element"> Targeting a Country’s digital infrastructures and resources through targeted attacks through the Cyberspace. The cyberspace is used as the battle field here.</p>
+<h1 class="grid-element">20.</h1> <h2 class="grid-element">Cryptography :</h2><p class="grid-element"> Cryptography is the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents.</p>
+<h1 class="grid-element">21.</h1> <h2 class="grid-element">Confidentiality :</h2><p class="grid-element"> State of maintaining secrecy of communication by restricting unauthorized access or disclosure of information.</p>
+<h1 class="grid-element">22.</h1> <h2 class="grid-element">Cloning :</h2><p class="grid-element"> It is the process of preparation of identical objects.</p>
+<h1 class="grid-element">23.</h1> <h2 class="grid-element">Control :</h2><p class="grid-element"> The power to impact decisions and processes in a system.</p>
+<h1 class="grid-element">24.</h1> <h2 class="grid-element">Cloud :</h2><p class="grid-element"> It is a metaphor used for Internet. It is created to share resources with minimum management effort. It provides ubiquitous access to all shared resources on subscription basis.</p>
+<h1 class="grid-element">25.</h1> <h2 class="grid-element">DNS-Domain Name System :</h2><p class="grid-element"> It is a naming system followed to identify computers and other services connected to the Internet.</p>
+<h1 class="grid-element">26.</h1> <h2 class="grid-element">Data :</h2><p class="grid-element"> Raw facts and figures that do not convey any meaning by themselves unless otherwise used in a context.</p>
+<h1 class="grid-element">27.</h1> <h2 class="grid-element">Database :</h2><p class="grid-element"> An organized collection of data with controlled redundancy.</p>
+<h1 class="grid-element">28.</h1> <h2 class="grid-element">Data Management :</h2><p class="grid-element"> Includes all operations and disciplines related to management of data like acquiring, storing, processing, validating, protecting and management.</p>
+<h1 class="grid-element">29.</h1> <h2 class="grid-element">Destruction :</h2><p class="grid-element"> The act of destroying something.</p>
+<h1 class="grid-element">30.</h1> <h2 class="grid-element">Disruption :</h2><p class="grid-element"> Forcible disconnection of something due to some pressure.</p>
+<h1 class="grid-element">31.</h1> <h2 class="grid-element">Data Fraud :</h2><p class="grid-element"> A deliberate attempt made to disclose the data or stealing of data for misuse. It is punishable according to cyber law.</p>
+<h1 class="grid-element">32.</h1> <h2 class="grid-element">DoS-Denial of Service :</h2><p class="grid-element"> It is a type of attack or crime where the genuine users are denied access to the resources due to unavailability of the resources.</p>
+<h1 class="grid-element">33.</h1> <h2 class="grid-element">Extortion :</h2><p class="grid-element"> Taking money or something of value by somebody by abuse.</p>
+<h1 class="grid-element">34.</h1> <h2 class="grid-element">Field :</h2><p class="grid-element"> A unit in a data base table. A space allocated for a particular item in a table.</p>
+<h1 class="grid-element">35.</h1> <h2 class="grid-element">File :</h2><p class="grid-element"> It is a collection of records.</p>
+<h1 class="grid-element">36.</h1> <h2 class="grid-element">Hardware :</h2><p class="grid-element"> Denotes the physical components of computers, devices and telecommunication systems.</p>
+<h1 class="grid-element">37.</h1> <h2 class="grid-element">IPS-Intrusion Prevention System :</h2><p class="grid-element"> It is a network security mechanism used to detect and prevent the network from illegal traffic exploiting vulnerability.</p>
+<h1 class="grid-element">38.</h1> <h2 class="grid-element">Information :</h2><p class="grid-element"> Processed data that conveys meaning to the users. It has a purpose.</p>
+<h1 class="grid-element">39.</h1> <h2 class="grid-element">Information Systems :</h2><p class="grid-element"> System that performs activities in an organized way to collect, store and communicate information.</p>
+<h1 class="grid-element">40.</h1> <h2 class="grid-element">Integrity :</h2><p class="grid-element"> Moral uprightness (the quality of being honest and having strong moral principles.)</p>
+<h1 class="grid-element">41.</h1> <h2 class="grid-element">ICT-Information Communication Technology :</h2><p class="grid-element"> It is the technology that provides access to information through telecommunication systems.</p>
+<h1 class="grid-element">42.</h1> <h2 class="grid-element">IoT – Internet of Things :</h2><p class="grid-element"> An eco-system that connects all objects and things with Internet. Every object is embedded with a sensor.</p>
+<h1 class="grid-element">43.</h1> <h2 class="grid-element">Knowledge :</h2><p class="grid-element"> Information with insights. Organizations build their own knowledge base.</p>
+<h1 class="grid-element">44.</h1> <h2 class="grid-element">Key-logging :</h2><p class="grid-element"> Also known as key stroke logging. It is the act of recording or monitoring the key punch operations of the user without their knowledge.</p>
+<h1 class="grid-element">45.</h1> <h2 class="grid-element">Modification :</h2><p class="grid-element"> The act of Alteration.</p>
+<h1 class="grid-element">46.</h1> <h2 class="grid-element">Malicious :</h2><p class="grid-element"> An act done with the intension of harming others or exhibiting the desire to harm others intentionally.</p>
+<h1 class="grid-element">47.</h1> <h2 class="grid-element">Malware :</h2><p class="grid-element"> It is an illegal piece of software designed to cause harm to the computers, servers and networks.</p>
+<h1 class="grid-element">48.</h1> <h2 class="grid-element">Metadata :</h2><p class="grid-element"> A set of data that describes and gives information about other data.</p>
+<h1 class="grid-element">49.</h1> <h2 class="grid-element">Object oriented approach :</h2><p class="grid-element"> A new concept or approach that redefines data in the form of data with functions for reusability and expansion.</p>
+<h1 class="grid-element">50.</h1> <h2 class="grid-element">Operating System :</h2><p class="grid-element"> A firmware that manages computer hardware, software and other resources to provide services to all the users.</p>
+<h1 class="grid-element">51.</h1> <h2 class="grid-element">Phishing :</h2><p class="grid-element"> An attempt made to access the user’s password or other secret information or credentials for malicious activities.</p>
+<h1 class="grid-element">52.</h1> <h2 class="grid-element">Risk :</h2><p class="grid-element"> Possibility of a harm or danger.</p>
+<h1 class="grid-element">53.</h1> <h2 class="grid-element">Router :</h2><p class="grid-element"> It is a network device that connects the network with Internet.</p>
+<h1 class="grid-element">54.</h1> <h2 class="grid-element">Ransomware :</h2><p class="grid-element"> It is a type of malicious software that prevents the users from accessing their own data for want of money.</p>
+<h1 class="grid-element">55.</h1> <h2 class="grid-element">Reliability :</h2><p class="grid-element"> It is the quality or state that ensures trust.</p>
+<h1 class="grid-element">56.</h1> <h2 class="grid-element">Server :</h2><p class="grid-element"> It is a computer program or a device that has medium or high level of calibre.</p>
+<h1 class="grid-element">57.</h1> <h2 class="grid-element">Signal :</h2><p class="grid-element"> Usually refers to the electronic pulses in the context of referring a data.</p>
+<h1 class="grid-element">58.</h1> <h2 class="grid-element">Super Computers :</h2><p class="grid-element"> It is a Computer with very high level of performance used in very important higher end and high processing critical applications.</p>
+<h1 class="grid-element">59.</h1> <h2 class="grid-element">Service oriented architecture : It is a software development model that facilitates the distribution of application components of data for further operations.</p>
+<h1 class="grid-element">60.</h1> <h2 class="grid-element">Sniffing :</h2><p class="grid-element"> Capturing data for unwanted operations in the context of security.</p>
+<h1 class="grid-element">61.</h1> <h2 class="grid-element">Software :</h2><p class="grid-element"> A set of instructions in an organized and systematic manner given to a computer to do a task.</p>
+<h1 class="grid-element">62.</h1> <h2 class="grid-element">Spoofing :</h2><p class="grid-element"> A type of crime where the intruder tries to gain unauthorized access to a system.</p>
+<h1 class="grid-element">63.</h1> <h2 class="grid-element">Spamming :</h2><p class="grid-element"> Sending unwanted bulk electronic messages through media.</p>
+<h1 class="grid-element">64.</h1> <h2 class="grid-element">Script Kiddies :</h2><p class="grid-element"> An unskilled individual who uses programs written by others to attack a computer network or a web site.</p>
+<h1 class="grid-element">65.</h1> <h2 class="grid-element">Social Engineering :</h2><p class="grid-element"> The act of getting the confidential information from people with the intension of misusing it.</p>
+<h1 class="grid-element">66.</h1> <h2 class="grid-element">Social Media :</h2><p class="grid-element"> An Internet based platform to share data or information with many.</p>
+<h1 class="grid-element">67.</h1> <h2 class="grid-element">Spying :</h2><p class="grid-element"> Secret collection of data or operation without the permission of the owner or holder.</p>
+<h1 class="grid-element">68.</h1> <h2 class="grid-element">Telecommunication System :</h2><p class="grid-element"> A system that is responsible for the transfer of data in the form of signals from one end to another end. In other words, from the sender to the receiver.</p>
+<h1 class="grid-element">69.</h1> <h2 class="grid-element">Theft :</h2><p class="grid-element"> It is a crime executed by snatching the property or stealing from the owner.</p>
+<h1 class="grid-element">70.</h1> <h2 class="grid-element">User Interface :</h2><p class="grid-element"> It is the connection or entry point through which users can interact with any system.</p>
+<h1 class="grid-element">71.</h1> <h2 class="grid-element">Virus :</h2><p class="grid-element"> A small piece of code installed in the user’s computer without their knowledge to execute undesirable activities.</p>
+<h1 class="grid-element">72.</h1> <h2 class="grid-element">Vulnerability :</h2><p class="grid-element"> It is a sensitive part of a system or unit. The part that cannot withstand the effect of hostile environment.</p>
+<h1 class="grid-element">73.</h1> <h2 class="grid-element">Wi-Fi :</h2><p class="grid-element"> (wireless fidelity) Wireless networking technology. It also uses standards of operations.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
