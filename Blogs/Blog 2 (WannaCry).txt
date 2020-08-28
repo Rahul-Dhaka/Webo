@@ -1,0 +1,33 @@
+Do you know about Wannacry ? No ? Ok Come I will make you aware of it.
+
+4 days  - 150Countries | 2,00,000 Victims | 3,00,000 Computers Infected | In total $1,30,000 ransom money
+
+In today’s world, where everyone is talking about Internet of Things(IoT), Artificial Intelligence and adapting Machine Learning for prevention and analysis of cyber attacks, more often than not, people forget to realize that security begins with “us”.
+
+Overview of Wannacry : The WannaCry ransomware attack was a May 2017 worldwide cyberattack by the WannaCry ransomware cryptoworm, which targeted computers running the Microsoft Windows operating system by encrypting data and demanding ransom payments in the Bitcoin cryptocurrency.
+
+Wannacry Attack : Everyday you are relaxed and doing your daily stuff , when all of sudden you notice all the icons on your desktop vanish. Too Late !!!
+You have just been hit with the WannaCry ransomware.It takes full possession of all your files.Afterwards , you receive an invitation to " PAY UP or ELSE ". 
+
+Wanna Cry PIC here
+
+It is considered a network worm because it also includes a "transport" mechanism to automatically spread itself.This transport code scans for vulnerable systems, then uses the EternalBlue exploit to gain access, and the DoublePulsar tool to install and execute a copy of itself.
+
+EternalBlue is an exploit of Windows.Much of the attention and comment around the event was occasioned by the fact that the U.S. National Security Agency (NSA) (from whom the exploit was likely stolen) had already discovered the vulnerability, but used it to create an exploit for its own offensive work, rather than report it to Microsoft.
+
+How WannaCry Spreads : When executed, the WannaCry malware first checks the "kill switch" domain name, if it is not found, then the ransomware encrypts the computer's data, then attempts to exploit the SMB(Server Message Block) vulnerability to spread out to random computers on the Internet and laterally to computers on the same network.
+
+
+Goal : The victims were forced to make a $300 payment which had to be made within 3 days or $600 within 7 days.After the 7 day deadline , the data could be considered lost.Payments were requested to be made in Bitcoin, which uses blockchain technology to act as a secure and anonymous way to pay money over the internet.Three Bitcoin wallets were used in total and the victims were said to have made 327 payments which are approximately $130,000. 
+
+
+
+Attack : Began on Friday, 12 May 2017 with evidence pointing to an initial infection in Asia. Within a day the code was reported to have infected more than 2,00,000 computers in over 150 countries.Organizations that had not installed Microsoft's security update from April 2017 were affected by the attack.
+
+Saviour : Marcus Hutchins discovered the kill switch domain hardcoded in the malware.Registering a domain name for a DNS sinkhole stopped the attack spreading as a worm, because the ransomware only encrypted the computer's files if it was unable to connect to that domain, which all computers infected with WannaCry before the website's registration had been unable to do. 
+While this did not help already infected systems, it severely slowed the spread of the initial infection and gave time for defensive measures to be deployed worldwide, particularly in North America and Asia. 
+
+On 14 May, a first variant of WannaCry appeared with a new and second kill-switch registered by Matt Suiche on the same day. This was followed by a second variant with the third and last kill-switch on 15 May, which was registered by Check Point threat intelligence analysts. 
+
+A few days later, a new version of WannaCry was detected that lacked the kill switch altogether.On 19 May, it was reported that hackers were trying to use a Mirai botnet variant to effect a distributed attack on WannaCry's kill-switch domain with the intention of knocking it offline.
+On 22 May, Hutchins protected the domain by switching to a cached version of the site, capable of dealing with much higher traffic loads than the live site.Separately, researchers from University College London and Boston University reported that their PayBreak system could defeat WannaCry and several other families of ransomware by recovering the keys used to encrypt the user's data.
