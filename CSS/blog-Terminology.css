@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  background: #e6e6e6;
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  width: 100vw;
+  /* background-color: red; */
+}
+
+/*----------------  Leftside Social media Icons ----------------*/
+
+.leftside{
+  position: fixed;
+  top: 35%;
+}
+
+
+.leftside li{
+  list-style-type: none;
+  padding: 15px;
+  transition: .6s;
+  color: white;
+  position: relative;  
+}
+
+.leftside li i{
+  font-size: 20px;
+}
+
+.leftside li:hover{
+  padding: 15px 20px;
+}
+
+.leftside li:nth-child(1){
+  background: #3b5998;
+}
+
+.leftside li:nth-child(2){
+  background: #00aced;
+}
+
+.leftside li:nth-child(3){
+  background: #dd4b39;
+}
+
+.leftside li:nth-child(4){
+  background: #007bb6;
+}
+
+
+/*--------xxxxx-----  Leftside Social media Icons ------xxx------*/
+
+.blog-content .container1 {
+  display: flex;
+  background-color: #fff;
+  width: 80vw;
+  height: 300px;
+  top: 20px;
+  position: relative;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: cursive;
+  color: aquamarine;
+}
+
+.blog-content .container2 {
+  display: flex;
+  background-color: transparent;
+  margin-top: 10px;
+  top: 60px;
+  width: 80vw;
+  height: 1200px;
+  position: relative;
+  flex-direction: row;
+  /* background-color: teal; */
+}
+
+.container3{
+  width: 65%;
+  height: 1000px;
+  border-radius: 1rem;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+  background: white;
+  display: grid;
+  padding: 10px;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 3fr 7fr ;
+  grid-template-rows: repeat(10,1fr);
+}
+
+.grid-element{
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+  border-radius: .2rem;
+  padding: 0px 10px;
+  font-family: 'Roboto';
+  /* height: 25px; */
+  border: 1px solid black;
+}
+
+.container3 > h1,h2{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container3 > p{
+  font-size: 18px;
+}
+
+.post-info{
+  background: rgb(189, 185, 185);
+  top: -40px;
+  padding: 1rem 1rem;
+  position: relative;
+  border-radius: 4rem;
+}
+
+.blog-content .container4 {
+  display: flex;
+  background-color: transparent;
+  width: 30%;
+  height: 800px;
+  margin-left: 5vw;
+  /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
+  /* border-radius: 1rem; */
+  flex-direction: column;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+.blog-content .container5 {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  height: 55%;
+  /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.blog-content .container6 {
+  display: flex;
+  background-color: #fff;
+  margin-top: 50px;
+  width: 100%;
+  height: 40%;
+  /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.blog-content .tags {
+  width: 90%;
+  font-size: 1.3rem;
+}
+.blog-content .tag {
+  background: lightblue;
+  padding: 10px 20px;
+  border-radius: 4rem;
+  margin-top: 0.6rem;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-content .container1 {
+    width: 92vw;
+    font-size: 2rem;
+  }
+
+  .blog-content .container2 {
+    flex-direction: column;
+    width: 92vw;
+    /* left: 5vw; */
+    height: 2900px;
+  }
+
+  .blog-content .container2 .container3 {
+    width: 100%;
+  }
+  .blog-content .container4 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+} 
