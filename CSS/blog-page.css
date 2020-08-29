@@ -28,6 +28,7 @@ body {
 a {
   text-decoration: none;
   color: #3f4954;
+  font-size: 40px;
 }
 
 .flex-row {
@@ -62,7 +63,8 @@ button.btn {
 
 p {
   margin-top: 10px;
-  font-size: 1rem;
+  font-size: 18px;
+  line-height: 30px;
   color: none;
 }
 
@@ -254,6 +256,7 @@ main .post-content .post-title a {
 
 main .site-content .post-content .post-title .post-btn {
   border-radius: 0;
+  outline: none;
   margin-top: 1rem;
   padding: 0.7rem 1.5rem;
   background: lightblue;

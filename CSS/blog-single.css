@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +73,7 @@ body{
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: cursive;
   color: aquamarine;
 }
@@ -80,9 +82,9 @@ body{
   display: flex;
   background-color: transparent;
   margin-top: 10px;
+  margin-bottom: 100px;
   top: 60px;
   width: 80vw;
-  height: 1200px;
   position: relative;
   flex-direction: row;
   /* background-color: teal; */
@@ -93,11 +95,10 @@ body{
   flex-direction: column;
   /* background-color: blue; */
   width: 65%;
-  height: 1200px;
   /* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2); */
   border-radius: 1rem;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .container3 .blog-1{
@@ -105,13 +106,13 @@ body{
   flex-direction: column;
   background-color: #fff;
   width: 100%;
-  height: 1050px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.2);
   /* box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); */
   border-radius: 1rem;
   /* justify-content: center; */
   align-items: center;
   transition: all .5s;
+  margin-bottom: 100px;
 }
 
 .blog-content .bl-img {
@@ -129,17 +130,34 @@ body{
 }
 
 .blog-content .container3 h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Roboto', "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #273c53;
   font-size: 40px;
-  margin-top: -40px;
-  align-self: center;
+  line-height: 48px;
+  margin-top: -30px;
+  width: 95%;
+  /* align-self: center; */
+  font-weight: 500;
 }
 
 .blog-content .container3 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
-  margin-top: 5px;
-  width: 97%;
+  font-family: "Roboto", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 10px;
+  width: 95%;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.mid-img{
+  width: 90%;
+  margin: 5%;
+  /* border: 2px solid black; */
+  /* border-radius: 1rem; */
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.3), 0 10px 20px rgba(0, 0, 0, 0.3);
+  /* padding: 5px; */
 }
 
 .post-info{
@@ -148,6 +166,7 @@ body{
   padding: 1rem 1rem;
   position: relative;
   border-radius: 4rem;
+  font-family: 'Poppins';
 }
 
 .blog-content .container4 {
@@ -214,12 +233,21 @@ body{
     flex-direction: column;
     width: 92vw;
     /* left: 5vw; */
-    height: 2900px;
+    /* height: 2900px; */
   }
 
   .blog-content .container2 .container3 {
     width: 100%;
   }
+
+  .blog-content .container3 h1 {
+    font-size: 34px;
+  }
+
+  .blog-content .container3 p {
+    font-size: 18px;
+  }
+
   .blog-content .container4 {
     width: 100%;
     margin-left: 0;

@@ -199,7 +199,21 @@ body{
     flex-direction: column;
     width: 92vw;
     /* left: 5vw; */
-    height: 2900px;
+    /* height: 2900px; */
+  }
+
+  .grid-element{
+    padding: 5px 5px;
+  }
+
+  .container3 > h1,h2{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .container3 > p{
+    font-size: 12px;
+    font-weight: 300;
   }
 
   .blog-content .container2 .container3 {
@@ -210,4 +224,5 @@ body{
     margin-left: 0;
     margin-top: 50px;
   }
+
 } 
