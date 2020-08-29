@@ -84,6 +84,7 @@ body{
   display: flex;
   background-color: transparent;
   margin-top: 10px;
+  margin-bottom: 100px;
   top: 60px;
   width: 80vw;
   /* height: 6200px; */
