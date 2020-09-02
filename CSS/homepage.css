@@ -18,16 +18,21 @@ body{
 }
 
 .content-1{
-  height: 100vh;
+  height: 108vh;
+  justify-content: center;
+  align-items: center;
   /* background: yellow; */
-  /* background-image: linear-gradient(#c3f5ff, #fff); */
+  padding-bottom: 20vh;
+  margin-top: -8vh;
+  background-image: url(/images/background-blurred.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .content-1 .text-banner,
 .content-2 .text-banner{
   text-align: center;
   width: 50%;
-  padding-top: 10vh;
   font-family: 'Montserrat', sans-serif;
   /* background-color: red; */
   /* font-family: 'Roboto', sans-serif; */
@@ -35,13 +40,13 @@ body{
 
 .content-1 .text-banner h1,
 .content-2 .text-banner h1{
-  color: #606060;
+  color: aliceblue;
   font-size: 3.1vw;
   font-weight: bolder;
 }
 
 .content-1 .text-banner h3{
-  color: #606060;
+  color: aliceblue;
   font-size: 30px;
 }
 
@@ -52,7 +57,6 @@ body{
 }
 
 .content-1 .image-banner img{
-  margin-top: 3vh;
   width: 60%;
   height: auto;
   /* border: 2px solid black; */
@@ -195,7 +199,10 @@ transform: rotate(0);
   }
 
   .content-1{
-    height: 150vw;
+    /* height: 150vw; */
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
   }
 
   .content-2{
@@ -227,6 +234,7 @@ transform: rotate(0);
   .content-1 .image-banner,
   .content-2 .image-banner {
     width: 95vw;
+    padding-top: 50px;
   }
 
   .content-3 .text-banner,
