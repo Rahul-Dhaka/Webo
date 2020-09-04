@@ -24,7 +24,7 @@ body{
   /* background: yellow; */
   padding-bottom: 20vh;
   margin-top: -8vh;
-  background-image: url(/images/background-blurred.png);
+  background-image: url(../images/background-blurred.png);
   background-position: center;
   background-size: cover;
 }
