@@ -110,16 +110,27 @@ nav {
   background-color: rgb(240, 240, 240);
   margin: 7px;
   border-radius: 10px;
+  transition:all .3s ease ;
 }
 
-.nav-links.active {
-  display: flex;
+.move .line1{
+  transform: rotate(-45deg) translate(-6px,7px);
+  transition:all .3s ease ;
+}
+.move .line2{
+  opacity: 0;
+  transition:all .3s ease ;
+}
+.move .line3{
+  transform: rotate(45deg) translate(-7px,-9px);
+  transition:all .3s ease ;
 }
 
 @media screen and (max-width: 1024px) {
   header{
     height: 3rem;
   }
+
   nav {
     justify-content: space-between;
     padding: 0 1rem;
@@ -128,11 +139,11 @@ nav {
     margin-left: 0vw;
   }
 
-  .nav-links {
+  /* .nav-links {
     display: none;
-  }
+  } */
 
-  .nav-links.active {
+  .nav-links {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -147,6 +158,13 @@ nav {
     border-top: 0;
     left: -2px;
     z-index: 1;
+    transform: translateY(-110%);
+    transition: all .3s ease;
+  }
+
+  .active{
+    transform: translateY(0%);
+    transition: all .4s ease;
   }
 
   .burger {
